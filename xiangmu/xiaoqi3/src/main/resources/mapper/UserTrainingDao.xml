@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.UserTrainingDao">
+
+    <resultMap type="com.test.springboot.entity.UserTraining" id="UserTrainingMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="trainingId" column="training_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="UserTrainingMap">
+        select
+          id, user_id, training_id
+        from user_training
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="UserTrainingMap">
+        select
+          id, user_id, training_id
+        from user_training
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="trainingId != null">
+                and training_id = #{trainingId}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from user_training
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="trainingId != null">
+                and training_id = #{trainingId}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into user_training(user_id, training_id)
+        values (#{userId}, #{trainingId})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into user_training(user_id, training_id)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.userId}, #{entity.trainingId})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into user_training(user_id, training_id)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.userId}, #{entity.trainingId})
+        </foreach>
+        on duplicate key update
+        user_id = values(user_id),
+        training_id = values(training_id)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update user_training
+        <set>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="trainingId != null">
+                training_id = #{trainingId},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from user_training where id = #{id}
+    </delete>
+
+
+
+    <select id="selectmaxId" resultType="int">
+        select max(id) from user_training
+    </select>
+
+    <select id="select1" resultType="int">
+        select count(*) from user_training where user_id=#{param1} and training_id = #{param2}
+    </select>
+
+    <insert id="insertustrain">
+        insert into user_training(id,user_id, training_id)
+        values (#{id3},#{id2},#{id1})
+    </insert>
+</mapper>
+

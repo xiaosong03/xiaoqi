@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.UserDao">
+
+    <resultMap type="com.test.springboot.entity.User" id="UserMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="nickname" column="nickname" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="birthday" column="birthday" jdbcType="TIMESTAMP"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="idCard" column="id_card" jdbcType="VARCHAR"/>
+        <result property="education" column="education" jdbcType="VARCHAR"/>
+        <result property="graduation" column="graduation" jdbcType="VARCHAR"/>
+        <result property="address"    column="address" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="UserMap">
+        select
+          id, username, password, nickname, age, birthday, phone, email, id_card, education, graduation,address
+        from user
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="UserMap">
+        select
+          id, username, password, nickname, age, birthday, phone, email, id_card, education, graduation
+        from user
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+            <if test="nickname != null and nickname != ''">
+                and nickname = #{nickname}
+            </if>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="birthday != null">
+                and birthday = #{birthday}
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone = #{phone}
+            </if>
+            <if test="email != null and email != ''">
+                and email = #{email}
+            </if>
+            <if test="idCard != null and idCard != ''">
+                and id_card = #{idCard}
+            </if>
+            <if test="education != null and education != ''">
+                and education = #{education}
+            </if>
+            <if test="graduation != null and graduation != ''">
+                and graduation = #{graduation}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from user
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+            <if test="nickname != null and nickname != ''">
+                and nickname = #{nickname}
+            </if>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="birthday != null">
+                and birthday = #{birthday}
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone = #{phone}
+            </if>
+            <if test="email != null and email != ''">
+                and email = #{email}
+            </if>
+            <if test="idCard != null and idCard != ''">
+                and id_card = #{idCard}
+            </if>
+            <if test="education != null and education != ''">
+                and education = #{education}
+            </if>
+            <if test="graduation != null and graduation != ''">
+                and graduation = #{graduation}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into user(username, password, nickname, age, birthday, phone, email, id_card, education, graduation,address)
+        values (#{username}, #{password}, #{nickname}, #{age}, #{birthday}, #{phone}, #{email}, #{idCard}, #{education}, #{graduation},#{address})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into user(username, password, nickname, age, birthday, phone, email, id_card, education, graduation)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.username}, #{entity.password}, #{entity.nickname}, #{entity.age}, #{entity.birthday}, #{entity.phone}, #{entity.email}, #{entity.idCard}, #{entity.education}, #{entity.graduation})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into user(username, password, nickname, age, birthday, phone, email, id_card, education, graduation)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.username}, #{entity.password}, #{entity.nickname}, #{entity.age}, #{entity.birthday}, #{entity.phone}, #{entity.email}, #{entity.idCard}, #{entity.education}, #{entity.graduation})
+        </foreach>
+        on duplicate key update
+        username = values(username),
+        password = values(password),
+        nickname = values(nickname),
+        age = values(age),
+        birthday = values(birthday),
+        phone = values(phone),
+        email = values(email),
+        id_card = values(id_card),
+        education = values(education),
+        graduation = values(graduation)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update user
+        <set>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="password != null and password != ''">
+                password = #{password},
+            </if>
+            <if test="nickname != null and nickname != ''">
+                nickname = #{nickname},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday},
+            </if>
+            <if test="phone != null and phone != ''">
+                phone = #{phone},
+            </if>
+            <if test="email != null and email != ''">
+                email = #{email},
+            </if>
+            <if test="idCard != null and idCard != ''">
+                id_card = #{idCard},
+            </if>
+            <if test="education != null and education != ''">
+                education = #{education},
+            </if>
+            <if test="graduation != null and graduation != ''">
+                graduation = #{graduation},
+            </if>
+            <if test="address != null and address != ''">
+                address = #{address},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from user where id = #{id}
+    </delete>
+    <update id="xiugai1">
+        update user
+        <set>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="password != null and password != ''">
+                password = #{password},
+            </if>
+            <if test="nickname != null and nickname != ''">
+                nickname = #{nickname},
+            </if>
+            <if test="age != null and age != ''">
+                age = #{age},
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday},
+            </if>
+            <if test="phone != null and phone != ''">
+                phone = #{phone},
+            </if>
+            <if test="email != null and email != ''">
+                email = #{email},
+            </if>
+            <if test="idCard != null and idCard != ''">
+                id_card = #{idCard},
+            </if>
+            <if test="education != null and education != ''">
+                education = #{education},
+            </if>
+            <if test="graduation != null and graduation != ''">
+                graduation = #{graduation},
+            </if>
+            <if test="address != null and address != ''">
+                address = #{address},
+            </if>
+        </set>
+        where username = #{username} and id_card=#{idCard}
+    </update>
+    <select id="queryByCount" resultMap="UserMap">
+        select
+            id, username, password, nickname, age, birthday, phone, email, id_card, education, graduation,address
+        from user
+        where username = #{username} and id_card=#{idCard}
+    </select>
+
+
+
+    <select id="queryLogin" resultMap="UserMap">
+        select * from user where username = #{username} and password = #{password}
+    </select>
+
+    <select id="queryByname" resultMap="UserMap">
+        select
+            id, username, password, nickname, age, birthday, phone, email, id_card, education, graduation,address
+        from user
+        where username = #{username}
+    </select>
+
+
+</mapper>
+

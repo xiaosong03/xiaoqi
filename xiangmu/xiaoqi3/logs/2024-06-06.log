@@ -1,0 +1,93 @@
+[INFO]2024-06-06 09:27:37,800 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 51072 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-06 09:27:37,804 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-06 09:27:37,891 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-06 09:27:37,892 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-06 09:27:38,699 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-06 09:27:38,701 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-06 09:27:38,732 - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-06 09:27:39,317 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-06 09:27:39,325 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 09:27:39,326 - Starting service [Tomcat]
+[INFO]2024-06-06 09:27:39,326 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-06 09:27:39,435 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-06 09:27:39,435 - Root WebApplicationContext: initialization completed in 1543 ms
+[INFO]2024-06-06 09:27:40,096 - 自定义Redis配置--
+[WARN]2024-06-06 09:27:40,354 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-06 09:27:40,518 - LiveReload server is running on port 35729
+[INFO]2024-06-06 09:27:40,541 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 09:27:40,562 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-06 09:27:40,581 - Started SpringbootApplication in 3.62 seconds (JVM running for 5.238)
+[INFO]2024-06-06 09:28:56,240 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-06 09:28:56,241 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-06 09:28:56,242 - Completed initialization in 1 ms
+[INFO]2024-06-06 09:28:56,287 - HikariPool-1 - Starting...
+[INFO]2024-06-06 09:28:56,422 - HikariPool-1 - Start completed.
+[INFO]2024-06-06 09:34:22,103 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-06 09:34:22,116 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-06 09:34:25,811 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 20172 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-06 09:34:25,812 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-06 09:34:25,851 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-06 09:34:25,851 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-06 09:34:26,440 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-06 09:34:26,442 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-06 09:34:26,467 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-06 09:34:26,964 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-06 09:34:26,970 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 09:34:26,971 - Starting service [Tomcat]
+[INFO]2024-06-06 09:34:26,971 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-06 09:34:27,057 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-06 09:34:27,057 - Root WebApplicationContext: initialization completed in 1206 ms
+[INFO]2024-06-06 09:34:27,795 - 自定义Redis配置--
+[WARN]2024-06-06 09:34:28,112 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-06 09:34:28,311 - LiveReload server is running on port 35729
+[INFO]2024-06-06 09:34:28,335 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 09:34:28,348 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-06 09:34:28,373 - Started SpringbootApplication in 2.909 seconds (JVM running for 4.174)
+[INFO]2024-06-06 09:35:23,211 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 59808 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-06 09:35:23,211 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-06 09:35:23,243 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-06 09:35:23,243 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-06 09:35:23,750 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-06 09:35:23,752 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-06 09:35:23,772 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-06 09:35:24,239 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-06 09:35:24,245 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 09:35:24,245 - Starting service [Tomcat]
+[INFO]2024-06-06 09:35:24,245 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-06 09:35:24,329 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-06 09:35:24,330 - Root WebApplicationContext: initialization completed in 1086 ms
+[INFO]2024-06-06 09:35:24,917 - 自定义Redis配置--
+[WARN]2024-06-06 09:35:25,224 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-06 09:35:25,422 - LiveReload server is running on port 35729
+[INFO]2024-06-06 09:35:25,440 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 09:35:25,454 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-06 09:35:25,472 - Started SpringbootApplication in 2.593 seconds (JVM running for 3.706)
+[INFO]2024-06-06 09:35:30,499 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-06 09:35:30,499 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-06 09:35:30,501 - Completed initialization in 2 ms
+[INFO]2024-06-06 09:35:30,552 - HikariPool-1 - Starting...
+[INFO]2024-06-06 09:35:30,659 - HikariPool-1 - Start completed.
+[INFO]2024-06-06 15:24:50,633 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 38596 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-06 15:24:50,634 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-06 15:24:50,695 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-06 15:24:50,695 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-06 15:24:51,549 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-06 15:24:51,553 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-06 15:24:51,599 - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-06 15:24:52,319 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-06 15:24:52,329 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 15:24:52,330 - Starting service [Tomcat]
+[INFO]2024-06-06 15:24:52,330 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-06 15:24:52,445 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-06 15:24:52,445 - Root WebApplicationContext: initialization completed in 1750 ms
+[INFO]2024-06-06 15:24:53,174 - 自定义Redis配置--
+[WARN]2024-06-06 15:24:53,647 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-06 15:24:53,844 - LiveReload server is running on port 35729
+[INFO]2024-06-06 15:24:53,864 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-06 15:24:53,892 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-06 15:24:53,916 - Started SpringbootApplication in 3.997 seconds (JVM running for 6.183)
+[INFO]2024-06-06 15:25:43,363 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-06 15:25:43,363 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-06 15:25:43,364 - Completed initialization in 1 ms
+[INFO]2024-06-06 15:25:43,406 - HikariPool-1 - Starting...
+[INFO]2024-06-06 15:25:43,537 - HikariPool-1 - Start completed.

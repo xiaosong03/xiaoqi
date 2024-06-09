@@ -1,0 +1,1319 @@
+[INFO]2024-06-04 09:21:06,923 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 15104 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:21:06,924 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:21:06,959 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:21:06,959 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:21:07,481 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:21:07,483 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:21:07,505 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:21:08,091 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:21:08,099 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:21:08,099 - Starting service [Tomcat]
+[INFO]2024-06-04 09:21:08,099 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:21:08,202 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:21:08,202 - Root WebApplicationContext: initialization completed in 1242 ms
+[INFO]2024-06-04 09:21:08,976 - 自定义Redis配置--
+[WARN]2024-06-04 09:21:09,316 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:21:09,512 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:21:09,539 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:21:09,559 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:21:09,578 - Started SpringbootApplication in 2.996 seconds (JVM running for 3.936)
+[INFO]2024-06-04 09:21:44,907 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:21:44,907 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:21:44,908 - Completed initialization in 1 ms
+[INFO]2024-06-04 09:21:44,971 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:21:45,075 - HikariPool-1 - Start completed.
+[WARN]2024-06-04 09:21:49,115 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-04 09:22:12,288 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-04 09:22:29,838 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-04 09:22:32,524 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-04 09:22:33,329 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-04 09:22:45,211 - Resolved [java.lang.NullPointerException]
+[INFO]2024-06-04 09:24:11,451 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 09:24:11,463 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 09:24:17,639 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 11780 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:24:17,640 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:24:17,674 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:24:17,674 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:24:18,217 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:24:18,218 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:24:18,240 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:24:18,741 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:24:18,748 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:24:18,749 - Starting service [Tomcat]
+[INFO]2024-06-04 09:24:18,749 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:24:18,823 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:24:18,823 - Root WebApplicationContext: initialization completed in 1148 ms
+[INFO]2024-06-04 09:24:19,475 - 自定义Redis配置--
+[WARN]2024-06-04 09:24:19,800 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:24:19,973 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:24:20,001 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:24:20,020 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:24:20,050 - Started SpringbootApplication in 2.743 seconds (JVM running for 3.605)
+[INFO]2024-06-04 09:24:25,834 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:24:25,834 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:24:25,835 - Completed initialization in 1 ms
+[INFO]2024-06-04 09:24:25,878 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:24:25,992 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 09:26:20,986 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 09:26:21,019 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 09:26:24,107 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 37120 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:26:24,108 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:26:24,144 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:26:24,145 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:26:24,648 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:26:24,650 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:26:24,674 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:26:25,159 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:26:25,166 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:26:25,166 - Starting service [Tomcat]
+[INFO]2024-06-04 09:26:25,166 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:26:25,239 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:26:25,239 - Root WebApplicationContext: initialization completed in 1094 ms
+[INFO]2024-06-04 09:26:26,223 - 自定义Redis配置--
+[WARN]2024-06-04 09:26:26,515 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:26:26,680 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:26:26,699 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:26:26,713 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:26:26,729 - Started SpringbootApplication in 2.937 seconds (JVM running for 3.912)
+[INFO]2024-06-04 09:26:31,688 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:26:31,689 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:26:31,690 - Completed initialization in 1 ms
+[INFO]2024-06-04 09:26:31,736 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:26:31,832 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 09:26:42,627 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 09:26:42,652 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 09:26:48,744 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 38904 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:26:48,745 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:26:48,791 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:26:48,791 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:26:49,316 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:26:49,317 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:26:49,339 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:26:49,817 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:26:49,824 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:26:49,825 - Starting service [Tomcat]
+[INFO]2024-06-04 09:26:49,825 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:26:49,902 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:26:49,902 - Root WebApplicationContext: initialization completed in 1111 ms
+[INFO]2024-06-04 09:26:50,578 - 自定义Redis配置--
+[WARN]2024-06-04 09:26:50,920 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:26:51,123 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:26:51,149 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:26:51,162 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:26:51,178 - Started SpringbootApplication in 2.768 seconds (JVM running for 3.67)
+[INFO]2024-06-04 09:26:55,890 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:26:55,890 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:26:55,892 - Completed initialization in 2 ms
+[INFO]2024-06-04 09:26:55,935 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:26:56,056 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 09:29:26,789 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 09:29:26,882 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 09:29:33,001 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 30252 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:29:33,002 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:29:33,035 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:29:33,035 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:29:33,558 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:29:33,560 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:29:33,581 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:29:34,045 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:29:34,053 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:29:34,053 - Starting service [Tomcat]
+[INFO]2024-06-04 09:29:34,054 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:29:34,137 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:29:34,137 - Root WebApplicationContext: initialization completed in 1101 ms
+[INFO]2024-06-04 09:29:34,775 - 自定义Redis配置--
+[WARN]2024-06-04 09:29:35,069 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:29:35,262 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:29:35,281 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:29:35,308 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:29:35,327 - Started SpringbootApplication in 2.678 seconds (JVM running for 3.557)
+[INFO]2024-06-04 09:29:39,319 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:29:39,319 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:29:39,321 - Completed initialization in 2 ms
+[INFO]2024-06-04 09:29:39,369 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:29:39,481 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 09:32:25,190 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 09:32:25,197 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 09:32:28,256 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 8132 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:32:28,257 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:32:28,293 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:32:28,293 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:32:28,841 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:32:28,842 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:32:28,865 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:32:29,337 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:32:29,344 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:32:29,344 - Starting service [Tomcat]
+[INFO]2024-06-04 09:32:29,344 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:32:29,419 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:32:29,420 - Root WebApplicationContext: initialization completed in 1127 ms
+[INFO]2024-06-04 09:32:30,152 - 自定义Redis配置--
+[WARN]2024-06-04 09:32:30,448 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:32:30,651 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:32:30,674 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:32:30,693 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:32:30,721 - Started SpringbootApplication in 2.792 seconds (JVM running for 3.72)
+[INFO]2024-06-04 09:32:36,166 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:32:36,166 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:32:36,167 - Completed initialization in 1 ms
+[WARN]2024-06-04 09:32:36,241 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[INFO]2024-06-04 09:32:36,268 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:32:36,393 - HikariPool-1 - Start completed.
+[WARN]2024-06-04 09:32:44,075 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[WARN]2024-06-04 09:33:20,210 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[INFO]2024-06-04 09:56:36,081 - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[INFO]2024-06-04 09:56:36,565 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:56:36,565 - Stopping service [Tomcat]
+[INFO]2024-06-04 09:56:36,567 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 09:56:36,571 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 09:56:36,572 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:56:36,573 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:56:36,613 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 09:56:36,624 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 09:56:36,769 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 8132 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:56:36,769 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:56:37,020 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:56:37,021 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:56:37,028 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:56:37,145 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:56:37,146 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:56:37,146 - Starting service [Tomcat]
+[INFO]2024-06-04 09:56:37,146 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:56:37,167 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:56:37,167 - Root WebApplicationContext: initialization completed in 396 ms
+[INFO]2024-06-04 09:56:37,358 - 自定义Redis配置--
+[WARN]2024-06-04 09:56:37,470 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:56:37,550 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:56:37,562 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:56:37,564 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:56:37,573 - Started SpringbootApplication in 0.83 seconds (JVM running for 1450.572)
+[INFO]2024-06-04 09:56:37,575 - Condition evaluation unchanged
+[INFO]2024-06-04 09:57:54,829 - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[INFO]2024-06-04 09:57:55,117 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:57:55,117 - Stopping service [Tomcat]
+[INFO]2024-06-04 09:57:55,120 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:57:55,121 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:57:55,262 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 8132 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:57:55,262 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:57:55,421 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:57:55,421 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:57:55,428 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:57:55,523 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:57:55,524 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:57:55,524 - Starting service [Tomcat]
+[INFO]2024-06-04 09:57:55,524 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:57:55,544 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:57:55,544 - Root WebApplicationContext: initialization completed in 281 ms
+[INFO]2024-06-04 09:57:55,666 - 自定义Redis配置--
+[WARN]2024-06-04 09:57:55,737 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:57:55,774 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:57:55,781 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:57:55,782 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:57:55,788 - Started SpringbootApplication in 0.545 seconds (JVM running for 1528.787)
+[INFO]2024-06-04 09:57:55,789 - Condition evaluation unchanged
+[INFO]2024-06-04 09:58:25,925 - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[INFO]2024-06-04 09:58:26,301 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:26,301 - Stopping service [Tomcat]
+[INFO]2024-06-04 09:58:26,304 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:26,305 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:26,459 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 8132 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:58:26,459 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:58:26,765 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:58:26,765 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:58:26,848 - Finished Spring Data repository scanning in 82 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:58:26,974 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:58:26,974 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:26,974 - Starting service [Tomcat]
+[INFO]2024-06-04 09:58:26,974 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:58:26,995 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:58:26,995 - Root WebApplicationContext: initialization completed in 534 ms
+[INFO]2024-06-04 09:58:27,123 - 自定义Redis配置--
+[WARN]2024-06-04 09:58:27,200 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:58:27,239 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:58:27,247 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:27,248 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:58:27,255 - Started SpringbootApplication in 0.82 seconds (JVM running for 1560.254)
+[INFO]2024-06-04 09:58:27,256 - Condition evaluation unchanged
+[INFO]2024-06-04 09:58:29,714 - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[INFO]2024-06-04 09:58:29,996 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:29,996 - Stopping service [Tomcat]
+[INFO]2024-06-04 09:58:29,999 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:30,000 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:30,094 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 8132 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:58:30,094 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:58:30,247 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:58:30,247 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:58:30,255 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:58:30,322 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:58:30,322 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:30,322 - Starting service [Tomcat]
+[INFO]2024-06-04 09:58:30,323 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:58:30,338 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:58:30,338 - Root WebApplicationContext: initialization completed in 242 ms
+[INFO]2024-06-04 09:58:30,467 - 自定义Redis配置--
+[WARN]2024-06-04 09:58:30,558 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:58:30,609 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:58:30,617 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:58:30,618 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:58:30,625 - Started SpringbootApplication in 0.553 seconds (JVM running for 1563.624)
+[INFO]2024-06-04 09:58:30,626 - Condition evaluation unchanged
+[INFO]2024-06-04 09:59:03,476 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 21092 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 09:59:03,477 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 09:59:03,515 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 09:59:03,515 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 09:59:04,037 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 09:59:04,038 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 09:59:04,061 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 09:59:04,572 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 09:59:04,579 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:59:04,579 - Starting service [Tomcat]
+[INFO]2024-06-04 09:59:04,579 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 09:59:04,655 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 09:59:04,655 - Root WebApplicationContext: initialization completed in 1139 ms
+[INFO]2024-06-04 09:59:05,247 - 自定义Redis配置--
+[WARN]2024-06-04 09:59:05,511 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 09:59:05,671 - LiveReload server is running on port 35729
+[INFO]2024-06-04 09:59:05,686 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 09:59:05,699 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 09:59:05,715 - Started SpringbootApplication in 2.58 seconds (JVM running for 3.573)
+[INFO]2024-06-04 09:59:22,483 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 09:59:22,483 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 09:59:22,484 - Completed initialization in 1 ms
+[INFO]2024-06-04 09:59:22,519 - HikariPool-1 - Starting...
+[INFO]2024-06-04 09:59:22,675 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 10:00:15,788 - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[INFO]2024-06-04 10:00:16,060 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:16,060 - Stopping service [Tomcat]
+[INFO]2024-06-04 10:00:16,061 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 10:00:16,063 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 10:00:16,064 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:16,065 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:16,079 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 10:00:16,085 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 10:00:16,198 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 21092 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 10:00:16,198 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 10:00:16,384 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 10:00:16,384 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 10:00:16,392 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 10:00:16,511 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 10:00:16,512 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:16,512 - Starting service [Tomcat]
+[INFO]2024-06-04 10:00:16,512 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 10:00:16,530 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 10:00:16,530 - Root WebApplicationContext: initialization completed in 330 ms
+[INFO]2024-06-04 10:00:16,674 - 自定义Redis配置--
+[WARN]2024-06-04 10:00:16,761 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 10:00:16,798 - LiveReload server is running on port 35729
+[INFO]2024-06-04 10:00:16,805 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:16,807 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 10:00:16,814 - Started SpringbootApplication in 0.641 seconds (JVM running for 74.673)
+[INFO]2024-06-04 10:00:16,815 - Condition evaluation unchanged
+[INFO]2024-06-04 10:00:19,270 - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[INFO]2024-06-04 10:00:19,529 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:19,530 - Stopping service [Tomcat]
+[INFO]2024-06-04 10:00:19,531 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:19,533 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:19,650 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 21092 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 10:00:19,650 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 10:00:19,800 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 10:00:19,800 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 10:00:19,807 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 10:00:19,863 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 10:00:19,863 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:19,863 - Starting service [Tomcat]
+[INFO]2024-06-04 10:00:19,863 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 10:00:19,879 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 10:00:19,879 - Root WebApplicationContext: initialization completed in 227 ms
+[INFO]2024-06-04 10:00:19,989 - 自定义Redis配置--
+[WARN]2024-06-04 10:00:20,060 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 10:00:20,098 - LiveReload server is running on port 35729
+[INFO]2024-06-04 10:00:20,105 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:00:20,106 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 10:00:20,113 - Started SpringbootApplication in 0.482 seconds (JVM running for 77.972)
+[INFO]2024-06-04 10:00:20,114 - Condition evaluation unchanged
+[INFO]2024-06-04 10:55:07,090 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 27928 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 10:55:07,091 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 10:55:07,134 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 10:55:07,134 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 10:55:07,736 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 10:55:07,738 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 10:55:07,761 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 10:55:08,238 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 10:55:08,244 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:55:08,244 - Starting service [Tomcat]
+[INFO]2024-06-04 10:55:08,244 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 10:55:08,323 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 10:55:08,324 - Root WebApplicationContext: initialization completed in 1188 ms
+[INFO]2024-06-04 10:55:08,857 - 自定义Redis配置--
+[WARN]2024-06-04 10:55:09,093 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 10:55:09,239 - LiveReload server is running on port 35729
+[INFO]2024-06-04 10:55:09,257 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 10:55:09,273 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 10:55:09,300 - Started SpringbootApplication in 2.564 seconds (JVM running for 3.45)
+[INFO]2024-06-04 11:01:25,969 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 11:01:25,969 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 11:01:25,969 - Completed initialization in 0 ms
+[INFO]2024-06-04 11:01:26,007 - HikariPool-1 - Starting...
+[INFO]2024-06-04 11:01:26,103 - HikariPool-1 - Start completed.
+[WARN]2024-06-04 11:03:09,367 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.test.springboot.utils.result.DataResult com.test.springboot.controller.UserController.selectjian(com.test.springboot.entity.User)]
+[INFO]2024-06-04 11:25:33,795 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 11:25:33,821 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 11:25:40,667 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 37460 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 11:25:40,668 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 11:25:40,702 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 11:25:40,702 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 11:25:41,329 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 11:25:41,330 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 11:25:41,354 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 11:25:41,886 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 11:25:41,892 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 11:25:41,892 - Starting service [Tomcat]
+[INFO]2024-06-04 11:25:41,892 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 11:25:41,980 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 11:25:41,980 - Root WebApplicationContext: initialization completed in 1277 ms
+[INFO]2024-06-04 11:25:42,551 - 自定义Redis配置--
+[WARN]2024-06-04 11:25:42,796 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 11:25:42,958 - LiveReload server is running on port 35729
+[INFO]2024-06-04 11:25:42,974 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 11:25:42,986 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 11:25:43,000 - Started SpringbootApplication in 2.658 seconds (JVM running for 3.566)
+[INFO]2024-06-04 11:25:44,845 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 11:25:44,845 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 11:25:44,847 - Completed initialization in 2 ms
+[INFO]2024-06-04 11:25:44,986 - HikariPool-1 - Starting...
+[INFO]2024-06-04 11:25:45,151 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 11:28:57,029 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-04 11:28:57,262 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 11:28:57,269 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 11:29:05,141 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 29012 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 11:29:05,142 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 11:29:05,182 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 11:29:05,182 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 11:29:05,783 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 11:29:05,785 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 11:29:05,808 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 11:29:06,361 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 11:29:06,366 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 11:29:06,367 - Starting service [Tomcat]
+[INFO]2024-06-04 11:29:06,367 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 11:29:06,464 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 11:29:06,464 - Root WebApplicationContext: initialization completed in 1281 ms
+[INFO]2024-06-04 11:29:07,093 - 自定义Redis配置--
+[WARN]2024-06-04 11:29:07,340 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 11:29:07,492 - LiveReload server is running on port 35729
+[INFO]2024-06-04 11:29:07,506 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 11:29:07,525 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 11:29:07,538 - Started SpringbootApplication in 2.758 seconds (JVM running for 3.665)
+[INFO]2024-06-04 11:29:07,838 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 11:29:07,838 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 11:29:07,838 - Completed initialization in 0 ms
+[INFO]2024-06-04 11:29:07,871 - HikariPool-1 - Starting...
+[INFO]2024-06-04 11:29:07,962 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 11:31:44,563 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 11:31:44,575 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 11:31:47,513 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 34896 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 11:31:47,514 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 11:31:47,549 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 11:31:47,549 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 11:31:48,054 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 11:31:48,055 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 11:31:48,078 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 11:31:48,551 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 11:31:48,558 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 11:31:48,558 - Starting service [Tomcat]
+[INFO]2024-06-04 11:31:48,558 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 11:31:48,640 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 11:31:48,640 - Root WebApplicationContext: initialization completed in 1091 ms
+[INFO]2024-06-04 11:31:49,289 - 自定义Redis配置--
+[WARN]2024-06-04 11:31:49,627 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 11:31:49,852 - LiveReload server is running on port 35729
+[INFO]2024-06-04 11:31:49,881 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 11:31:49,898 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 11:31:49,989 - Started SpringbootApplication in 2.791 seconds (JVM running for 3.727)
+[INFO]2024-06-04 11:31:50,318 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 11:31:50,318 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 11:31:50,320 - Completed initialization in 2 ms
+[INFO]2024-06-04 11:31:50,364 - HikariPool-1 - Starting...
+[INFO]2024-06-04 11:31:50,469 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 14:24:56,225 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 30840 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 14:24:56,226 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 14:24:56,266 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 14:24:56,267 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 14:24:56,983 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 14:24:56,985 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 14:24:57,022 - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 14:24:57,716 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 14:24:57,723 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:24:57,724 - Starting service [Tomcat]
+[INFO]2024-06-04 14:24:57,724 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 14:24:57,810 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 14:24:57,810 - Root WebApplicationContext: initialization completed in 1543 ms
+[INFO]2024-06-04 14:24:58,444 - 自定义Redis配置--
+[WARN]2024-06-04 14:24:58,710 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 14:24:58,857 - LiveReload server is running on port 35729
+[INFO]2024-06-04 14:24:58,872 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:24:58,886 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 14:24:58,907 - Started SpringbootApplication in 3.094 seconds (JVM running for 4.125)
+[INFO]2024-06-04 14:25:49,959 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 14:25:49,959 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 14:25:49,960 - Completed initialization in 1 ms
+[INFO]2024-06-04 14:25:49,997 - HikariPool-1 - Starting...
+[INFO]2024-06-04 14:25:50,123 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 14:33:28,613 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO]2024-06-04 14:33:28,909 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:28,909 - Stopping service [Tomcat]
+[INFO]2024-06-04 14:33:28,910 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 14:33:28,913 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 14:33:28,913 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:28,914 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:28,931 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 14:33:28,938 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 14:33:29,063 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 30840 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 14:33:29,063 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 14:33:29,260 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 14:33:29,260 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 14:33:29,269 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 14:33:29,368 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 14:33:29,368 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:29,368 - Starting service [Tomcat]
+[INFO]2024-06-04 14:33:29,368 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 14:33:29,388 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 14:33:29,388 - Root WebApplicationContext: initialization completed in 323 ms
+[INFO]2024-06-04 14:33:29,533 - 自定义Redis配置--
+[WARN]2024-06-04 14:33:29,607 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 14:33:29,646 - LiveReload server is running on port 35729
+[INFO]2024-06-04 14:33:29,653 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:29,654 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 14:33:29,663 - Started SpringbootApplication in 0.624 seconds (JVM running for 514.88)
+[INFO]2024-06-04 14:33:29,664 - Condition evaluation unchanged
+[INFO]2024-06-04 14:33:56,663 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 41136 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 14:33:56,663 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 14:33:56,697 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 14:33:56,697 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 14:33:57,168 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 14:33:57,169 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 14:33:57,191 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 14:33:57,736 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 14:33:57,746 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:57,747 - Starting service [Tomcat]
+[INFO]2024-06-04 14:33:57,747 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 14:33:57,867 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 14:33:57,867 - Root WebApplicationContext: initialization completed in 1170 ms
+[INFO]2024-06-04 14:33:58,666 - 自定义Redis配置--
+[WARN]2024-06-04 14:33:58,983 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 14:33:59,188 - LiveReload server is running on port 35729
+[INFO]2024-06-04 14:33:59,208 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:33:59,221 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 14:33:59,238 - Started SpringbootApplication in 2.891 seconds (JVM running for 3.924)
+[INFO]2024-06-04 14:34:02,481 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 14:34:02,481 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 14:34:02,482 - Completed initialization in 1 ms
+[INFO]2024-06-04 14:34:02,535 - HikariPool-1 - Starting...
+[INFO]2024-06-04 14:34:02,645 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 14:42:40,722 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 14:42:40,730 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 14:42:43,784 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 43880 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 14:42:43,785 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 14:42:43,819 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 14:42:43,820 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 14:42:44,291 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 14:42:44,292 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 14:42:44,314 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 14:42:44,748 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 14:42:44,754 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:42:44,755 - Starting service [Tomcat]
+[INFO]2024-06-04 14:42:44,755 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 14:42:44,837 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 14:42:44,837 - Root WebApplicationContext: initialization completed in 1017 ms
+[INFO]2024-06-04 14:42:45,471 - 自定义Redis配置--
+[WARN]2024-06-04 14:42:45,764 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 14:42:45,929 - LiveReload server is running on port 35729
+[INFO]2024-06-04 14:42:45,951 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:42:45,965 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 14:42:45,983 - Started SpringbootApplication in 2.512 seconds (JVM running for 3.555)
+[INFO]2024-06-04 14:42:50,086 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 14:42:50,086 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 14:42:50,087 - Completed initialization in 1 ms
+[INFO]2024-06-04 14:42:50,152 - HikariPool-1 - Starting...
+[INFO]2024-06-04 14:42:50,281 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 14:44:54,286 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 14:44:54,293 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 14:45:00,596 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 42980 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 14:45:00,597 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 14:45:00,630 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 14:45:00,631 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 14:45:01,117 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 14:45:01,118 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 14:45:01,140 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 14:45:01,608 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 14:45:01,615 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:45:01,615 - Starting service [Tomcat]
+[INFO]2024-06-04 14:45:01,615 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 14:45:01,696 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 14:45:01,696 - Root WebApplicationContext: initialization completed in 1065 ms
+[INFO]2024-06-04 14:45:02,239 - 自定义Redis配置--
+[WARN]2024-06-04 14:45:02,518 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 14:45:02,707 - LiveReload server is running on port 35729
+[INFO]2024-06-04 14:45:02,723 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:45:02,739 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 14:45:02,771 - Started SpringbootApplication in 2.503 seconds (JVM running for 3.601)
+[INFO]2024-06-04 14:45:07,404 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 14:45:07,405 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 14:45:07,406 - Completed initialization in 1 ms
+[INFO]2024-06-04 14:45:07,466 - HikariPool-1 - Starting...
+[INFO]2024-06-04 14:45:07,576 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 14:47:25,224 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 14:47:25,232 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 14:47:30,979 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 29792 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 14:47:30,980 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 14:47:31,013 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 14:47:31,013 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 14:47:31,483 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 14:47:31,484 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 14:47:31,508 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 14:47:31,995 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 14:47:32,001 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:47:32,002 - Starting service [Tomcat]
+[INFO]2024-06-04 14:47:32,002 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 14:47:32,083 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 14:47:32,083 - Root WebApplicationContext: initialization completed in 1070 ms
+[INFO]2024-06-04 14:47:32,699 - 自定义Redis配置--
+[WARN]2024-06-04 14:47:33,078 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 14:47:33,260 - LiveReload server is running on port 35729
+[INFO]2024-06-04 14:47:33,278 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 14:47:33,293 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 14:47:33,311 - Started SpringbootApplication in 2.649 seconds (JVM running for 3.608)
+[INFO]2024-06-04 14:47:37,132 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 14:47:37,132 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 14:47:37,133 - Completed initialization in 1 ms
+[INFO]2024-06-04 14:47:37,204 - HikariPool-1 - Starting...
+[INFO]2024-06-04 14:47:37,337 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 16:18:42,202 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-04 16:18:42,546 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:18:42,546 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:18:42,546 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 16:18:42,549 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 16:18:42,549 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:18:42,551 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:18:42,565 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 16:18:42,569 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 16:18:42,681 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 29792 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:18:42,681 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:18:42,913 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:18:42,913 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:18:42,922 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:18:43,074 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:18:43,074 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:18:43,074 - Starting service [Tomcat]
+[INFO]2024-06-04 16:18:43,074 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:18:43,096 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:18:43,096 - Root WebApplicationContext: initialization completed in 412 ms
+[INFO]2024-06-04 16:18:43,291 - 自定义Redis配置--
+[WARN]2024-06-04 16:18:43,401 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:18:43,463 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:18:43,474 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:18:43,476 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:18:43,486 - Started SpringbootApplication in 0.83 seconds (JVM running for 5475.059)
+[INFO]2024-06-04 16:18:43,488 - Condition evaluation unchanged
+[INFO]2024-06-04 16:19:43,864 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 16:19:43,864 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 16:19:43,865 - Completed initialization in 1 ms
+[WARN]2024-06-04 16:19:43,881 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "getCoopList"]
+[INFO]2024-06-04 16:20:19,312 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-06-04 16:20:19,573 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:20:19,574 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:20:19,575 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2024-06-04 16:20:19,577 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:20:19,578 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:20:19,697 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 29792 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:20:19,698 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:20:19,860 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:20:19,860 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:20:19,867 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:20:19,969 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:20:19,969 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:20:19,969 - Starting service [Tomcat]
+[INFO]2024-06-04 16:20:19,969 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:20:19,987 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:20:19,987 - Root WebApplicationContext: initialization completed in 288 ms
+[INFO]2024-06-04 16:20:20,113 - 自定义Redis配置--
+[WARN]2024-06-04 16:20:20,186 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:20:20,222 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:20:20,229 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:20:20,230 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:20:20,236 - Started SpringbootApplication in 0.559 seconds (JVM running for 5571.808)
+[INFO]2024-06-04 16:20:20,237 - Condition evaluation unchanged
+[INFO]2024-06-04 16:20:46,533 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 16:20:46,534 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 16:20:46,535 - Completed initialization in 1 ms
+[INFO]2024-06-04 16:20:46,537 - HikariPool-2 - Starting...
+[INFO]2024-06-04 16:20:46,539 - HikariPool-2 - Start completed.
+[INFO]2024-06-04 16:29:35,012 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-04 16:29:35,361 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:29:35,362 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:29:35,362 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 16:29:35,365 - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 16:29:35,365 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:29:35,366 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:29:35,370 - HikariPool-2 - Shutdown initiated...
+[INFO]2024-06-04 16:29:35,373 - HikariPool-2 - Shutdown completed.
+[INFO]2024-06-04 16:29:35,499 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 29792 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:29:35,499 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:29:35,713 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:29:35,713 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:29:35,725 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:29:35,870 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:29:35,870 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:29:35,870 - Starting service [Tomcat]
+[INFO]2024-06-04 16:29:35,871 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:29:35,890 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:29:35,890 - Root WebApplicationContext: initialization completed in 390 ms
+[WARN]2024-06-04 16:29:35,989 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addJobHuntingController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+[INFO]2024-06-04 16:29:35,989 - Stopping service [Tomcat]
+[ERROR]2024-06-04 16:29:36,026 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addJobHuntingController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d39a7b57.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d39a7b57$$FastClassBySpringCGLIB$$53742572.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d39a7b57.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\TrainingDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.TrainVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.TrainVo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-06-04 16:29:40,491 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 41740 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:29:40,492 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:29:40,525 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 16:29:40,525 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 16:29:41,015 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:29:41,016 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:29:41,038 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:29:41,530 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:29:41,537 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:29:41,537 - Starting service [Tomcat]
+[INFO]2024-06-04 16:29:41,538 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:29:41,633 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:29:41,634 - Root WebApplicationContext: initialization completed in 1107 ms
+[INFO]2024-06-04 16:29:42,280 - 自定义Redis配置--
+[WARN]2024-06-04 16:29:42,586 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:29:42,811 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:29:42,831 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:29:42,844 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:29:42,862 - Started SpringbootApplication in 2.68 seconds (JVM running for 3.772)
+[INFO]2024-06-04 16:31:09,382 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 16:31:09,382 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 16:31:09,384 - Completed initialization in 2 ms
+[INFO]2024-06-04 16:31:09,417 - HikariPool-1 - Starting...
+[INFO]2024-06-04 16:31:09,501 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 16:46:56,563 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO]2024-06-04 16:46:56,866 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:46:56,866 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:46:56,867 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 16:46:56,870 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 16:46:56,870 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:46:56,871 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:46:56,886 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 16:46:56,893 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 16:46:57,039 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 41740 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:46:57,040 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:46:57,272 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:46:57,272 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:46:57,280 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:46:57,399 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:46:57,399 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:46:57,400 - Starting service [Tomcat]
+[INFO]2024-06-04 16:46:57,400 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:46:57,420 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:46:57,420 - Root WebApplicationContext: initialization completed in 378 ms
+[INFO]2024-06-04 16:46:57,567 - 自定义Redis配置--
+[WARN]2024-06-04 16:46:57,641 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:46:57,677 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:46:57,685 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:46:57,687 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:46:57,693 - Started SpringbootApplication in 0.686 seconds (JVM running for 1038.605)
+[INFO]2024-06-04 16:46:57,695 - Condition evaluation unchanged
+[INFO]2024-06-04 16:47:39,109 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-04 16:47:39,391 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:39,392 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:47:39,395 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:39,396 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:39,558 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 41740 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:47:39,558 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:47:39,747 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:47:39,747 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:47:39,755 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:47:39,853 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:47:39,853 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:39,854 - Starting service [Tomcat]
+[INFO]2024-06-04 16:47:39,854 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:47:39,872 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:47:39,872 - Root WebApplicationContext: initialization completed in 312 ms
+[WARN]2024-06-04 16:47:39,921 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addJobHuntingController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+[INFO]2024-06-04 16:47:39,921 - Stopping service [Tomcat]
+[ERROR]2024-06-04 16:47:39,947 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addJobHuntingController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b5fbf8a7.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b5fbf8a7$$FastClassBySpringCGLIB$$3a6b32c5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b5fbf8a7.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-06-04 16:47:42,446 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 41740 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:47:42,446 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:47:42,612 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:47:42,612 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:47:42,619 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:47:42,693 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:47:42,695 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:42,695 - Starting service [Tomcat]
+[INFO]2024-06-04 16:47:42,695 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:47:42,717 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:47:42,717 - Root WebApplicationContext: initialization completed in 270 ms
+[INFO]2024-06-04 16:47:42,882 - 自定义Redis配置--
+[WARN]2024-06-04 16:47:42,960 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:47:43,003 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:47:43,010 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:43,011 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:47:43,018 - Started SpringbootApplication in 0.591 seconds (JVM running for 1083.929)
+[INFO]2024-06-04 16:47:43,019 - Condition evaluation unchanged
+[INFO]2024-06-04 16:47:43,025 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 16:47:43,026 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 16:47:43,027 - Completed initialization in 1 ms
+[INFO]2024-06-04 16:47:43,033 - HikariPool-2 - Starting...
+[INFO]2024-06-04 16:47:43,036 - HikariPool-2 - Start completed.
+[INFO]2024-06-04 16:47:45,484 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-04 16:47:45,802 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:45,802 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:47:45,803 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 16:47:45,804 - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[WARN]2024-06-04 16:47:45,805 - The web application [ROOT] appears to have started a thread named [HikariPool-2 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 16:47:45,805 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:45,806 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:45,810 - HikariPool-2 - Shutdown initiated...
+[INFO]2024-06-04 16:47:45,812 - HikariPool-2 - Shutdown completed.
+[INFO]2024-06-04 16:47:45,942 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 41740 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:47:45,942 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:47:46,107 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:47:46,108 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:47:46,115 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:47:46,175 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:47:46,175 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:47:46,176 - Starting service [Tomcat]
+[INFO]2024-06-04 16:47:46,176 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:47:46,193 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:47:46,193 - Root WebApplicationContext: initialization completed in 250 ms
+[WARN]2024-06-04 16:47:46,233 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addJobHuntingController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+[INFO]2024-06-04 16:47:46,234 - Stopping service [Tomcat]
+[ERROR]2024-06-04 16:47:46,244 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addJobHuntingController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobHuntingService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobHuntingDao' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\dao\JobHuntingDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b5fbf8a7.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b5fbf8a7$$FastClassBySpringCGLIB$$3a6b32c5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b5fbf8a7.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.vo.CooperateInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.vo.CooperateInfo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-06-04 16:48:54,577 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 44804 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:48:54,578 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:48:54,612 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 16:48:54,612 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 16:48:55,085 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:48:55,086 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:48:55,108 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:48:55,555 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:48:55,561 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:48:55,562 - Starting service [Tomcat]
+[INFO]2024-06-04 16:48:55,562 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:48:55,661 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:48:55,661 - Root WebApplicationContext: initialization completed in 1048 ms
+[INFO]2024-06-04 16:48:56,273 - 自定义Redis配置--
+[WARN]2024-06-04 16:48:56,552 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:48:56,716 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:48:56,738 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:48:56,751 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:48:56,767 - Started SpringbootApplication in 2.516 seconds (JVM running for 3.45)
+[INFO]2024-06-04 16:49:02,013 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 16:49:02,014 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 16:49:02,016 - Completed initialization in 2 ms
+[INFO]2024-06-04 16:49:02,074 - HikariPool-1 - Starting...
+[INFO]2024-06-04 16:49:02,218 - HikariPool-1 - Start completed.
+[INFO]2024-06-04 16:51:09,329 - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[INFO]2024-06-04 16:51:09,666 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:09,667 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:51:09,667 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-04 16:51:09,670 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-04 16:51:09,670 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:09,672 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:09,687 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-04 16:51:09,693 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-04 16:51:09,811 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 44804 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:51:09,811 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:51:10,017 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:51:10,017 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:51:10,025 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:51:10,135 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:51:10,136 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:10,136 - Starting service [Tomcat]
+[INFO]2024-06-04 16:51:10,136 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:51:10,159 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:51:10,159 - Root WebApplicationContext: initialization completed in 346 ms
+[INFO]2024-06-04 16:51:10,326 - 自定义Redis配置--
+[WARN]2024-06-04 16:51:10,426 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:51:10,475 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:51:10,484 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:10,486 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:51:10,493 - Started SpringbootApplication in 0.707 seconds (JVM running for 137.176)
+[INFO]2024-06-04 16:51:10,495 - Condition evaluation unchanged
+[INFO]2024-06-04 16:51:12,944 - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[INFO]2024-06-04 16:51:13,218 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:13,218 - Stopping service [Tomcat]
+[INFO]2024-06-04 16:51:13,219 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:13,221 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:13,338 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 44804 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 16:51:13,339 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 16:51:13,491 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 16:51:13,491 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 16:51:13,498 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 16:51:13,558 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 16:51:13,558 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:13,559 - Starting service [Tomcat]
+[INFO]2024-06-04 16:51:13,559 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 16:51:13,575 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 16:51:13,576 - Root WebApplicationContext: initialization completed in 236 ms
+[INFO]2024-06-04 16:51:13,687 - 自定义Redis配置--
+[WARN]2024-06-04 16:51:13,765 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 16:51:13,806 - LiveReload server is running on port 35729
+[INFO]2024-06-04 16:51:13,813 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 16:51:13,815 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 16:51:13,822 - Started SpringbootApplication in 0.502 seconds (JVM running for 140.504)
+[INFO]2024-06-04 16:51:13,823 - Condition evaluation unchanged
+[INFO]2024-06-04 17:54:26,804 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 39488 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-04 17:54:26,805 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-04 17:54:26,858 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-04 17:54:26,859 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-04 17:54:27,536 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-04 17:54:27,539 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-04 17:54:27,566 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-04 17:54:28,163 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-04 17:54:28,171 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 17:54:28,171 - Starting service [Tomcat]
+[INFO]2024-06-04 17:54:28,171 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-04 17:54:28,270 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-04 17:54:28,270 - Root WebApplicationContext: initialization completed in 1411 ms
+[INFO]2024-06-04 17:54:29,048 - 自定义Redis配置--
+[WARN]2024-06-04 17:54:29,331 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-04 17:54:29,493 - LiveReload server is running on port 35729
+[INFO]2024-06-04 17:54:29,509 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-04 17:54:29,532 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-04 17:54:29,549 - Started SpringbootApplication in 3.35 seconds (JVM running for 4.393)
+[INFO]2024-06-04 17:55:29,197 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-04 17:55:29,197 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-04 17:55:29,200 - Completed initialization in 3 ms
+[INFO]2024-06-04 17:55:29,265 - HikariPool-1 - Starting...
+[INFO]2024-06-04 17:55:29,389 - HikariPool-1 - Start completed.

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.CompStaffDao">
+
+    <resultMap type="com.test.springboot.entity.CompStaff" id="CompStaffMap">
+        <result property="compId" column="comp_id" jdbcType="INTEGER"/>
+        <result property="number" column="number" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="job" column="job" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CompStaffMap">
+        select
+          comp_id, number, user_id, job
+        from comp_staff
+        where comp_id = #{compId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CompStaffMap">
+        select
+          comp_id, number, user_id, job
+        from comp_staff
+        <where>
+            <if test="compId != null">
+                and comp_id = #{compId}
+            </if>
+            <if test="number != null">
+                and number = #{number}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="job != null">
+                and job = #{job}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from comp_staff
+        <where>
+            <if test="compId != null">
+                and comp_id = #{compId}
+            </if>
+            <if test="number != null">
+                and number = #{number}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="job != null">
+                and job = #{job}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="compId" useGeneratedKeys="true">
+        insert into comp_staff(user_id, job)
+        values (#{userId}, #{job})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="compId" useGeneratedKeys="true">
+        insert into comp_staff(user_id, job)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.userId}, #{entity.job})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="compId" useGeneratedKeys="true">
+        insert into comp_staff(user_id, job)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.userId}, #{entity.job})
+        </foreach>
+        on duplicate key update
+        user_id = values(user_id),
+        job = values(job)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update comp_staff
+        <set>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="job != null">
+                job = #{job},
+            </if>
+        </set>
+        where comp_id = #{compId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from comp_staff where comp_id = #{compId}
+    </delete>
+
+    <select id="getCompany" resultMap="CompStaffMap">
+        select * from comp_staff where user_id=#{userid}
+    </select>
+
+    <select id="isStaff" resultType="java.lang.Object">
+        select * from comp_staff where user_id = #{id}
+    </select>
+
+    <select id="queryByUserId" resultType="int">
+        select
+            comp_id
+        from
+            comp_staff
+        where
+            comp_staff.comp_id = #{id} and comp_staff.user_id = user.id
+            limit 1
+    </select>
+
+    <select id="getStaffInfoVos" resultType="com.test.springboot.vo.StaffInfoVo">
+        select
+            comp_staff.comp_id, id , user.username,  comp_staff.number, user.age, user.phone, user.email
+        from
+            user, comp_staff
+        where
+            comp_staff.comp_id = #{id} and comp_staff.user_id = user.id
+            limit #{page},#{limit}
+    </select>
+
+    <select id="getStaffInfoVoCount" resultType="long">
+        select
+            count(*)
+        from
+            user, comp_staff
+        where
+            comp_staff.comp_id = #{id} and comp_staff.user_id = user.id
+    </select>
+
+    <delete id="deleteByUserId">
+        delete from comp_staff
+        where
+            comp_staff.comp_id = #{compId} and comp_staff.user_id = #{id} and comp_staff.number=#{number}
+    </delete>
+
+    <select id="getStaffInfoVos1" resultType="com.test.springboot.vo.StaffInfoVo">
+        select
+            comp_staff.comp_id, id , user.username,  comp_staff.number, user.age, user.phone, user.email
+        from
+            user, comp_staff
+        where
+            comp_staff.comp_id = #{id} and comp_staff.user_id = user.id and user.username like CONCAT('%', #{selctName}, '%')
+            limit #{page},#{limit}
+    </select>
+
+    <select id="getStaffInfoVos2" resultType="com.test.springboot.vo.StaffInfoVo">
+        select
+            comp_staff.comp_id, id , user.username,  comp_staff.number, user.age, user.phone, user.email
+        from
+            user, comp_staff
+        where
+            comp_staff.comp_id = #{id} and comp_staff.user_id = user.id and comp_staff.number like CONCAT('%', #{selectNu}, '%')
+            limit #{page},#{limit}
+    </select>
+
+    <select id="getStaffInfoVos3" resultType="com.test.springboot.vo.StaffInfoVo">
+        select
+            comp_staff.comp_id, id , user.username,  comp_staff.number, user.age, user.phone, user.email
+        from
+            user, comp_staff
+        where
+            comp_staff.comp_id = #{id}
+            and comp_staff.user_id = user.id
+            and comp_staff.number like CONCAT('%', #{selectNu}, '%')
+          and user.username like CONCAT('%', #{selctName}, '%')
+            limit #{page},#{limit}
+    </select>
+
+    <insert id="insert1">
+        insert into comp_staff
+        values (#{compId},#{compId}+#{userId},#{userId},2)
+    </insert>
+
+    <select id="selectCompanyMaxIdByComId" resultType="int">
+        select max(number)
+        from comp_staff
+        where comp_id = #{compId}
+    </select>
+
+    <insert id="insert2">
+        insert into comp_staff
+        values (#{param1.compId},#{param2},#{param1.userId},2)
+    </insert>
+
+    <select id="queryByUser" resultMap="CompStaffMap">
+        select
+            *
+        from
+            comp_staff
+        where
+            user_id = #{id}
+        limit 1
+    </select>
+</mapper>
+

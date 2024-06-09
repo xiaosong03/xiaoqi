@@ -1,0 +1,88 @@
+[INFO]2024-05-30 14:04:38,416 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 132352 (D:\Java\xiaoqi2\target\classes started by luoshiwqng in D:\Java\xiaoqi2)
+[INFO]2024-05-30 14:04:38,420 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-30 14:04:38,505 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-30 14:04:38,505 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-30 14:04:40,043 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-30 14:04:40,048 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-30 14:04:40,106 - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-30 14:04:41,347 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-30 14:04:41,360 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 14:04:41,361 - Starting service [Tomcat]
+[INFO]2024-05-30 14:04:41,361 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-30 14:04:41,506 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-30 14:04:41,507 - Root WebApplicationContext: initialization completed in 3001 ms
+[INFO]2024-05-30 14:04:42,659 - 自定义Redis配置--
+[WARN]2024-05-30 14:04:43,167 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-30 14:04:43,471 - LiveReload server is running on port 35729
+[INFO]2024-05-30 14:04:43,506 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 14:04:43,557 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-30 14:04:43,592 - Started SpringbootApplication in 5.841 seconds (JVM running for 7.531)
+[INFO]2024-05-30 14:06:35,132 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-30 14:06:35,132 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-30 14:06:35,133 - Completed initialization in 1 ms
+[INFO]2024-05-30 14:06:35,182 - HikariPool-1 - Starting...
+[INFO]2024-05-30 14:06:35,335 - HikariPool-1 - Start completed.
+[INFO]2024-05-30 15:02:22,767 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-30 15:02:23,188 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:23,188 - Stopping service [Tomcat]
+[INFO]2024-05-30 15:02:23,189 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-30 15:02:23,192 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-30 15:02:23,193 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:23,195 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:23,222 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-30 15:02:23,225 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-30 15:02:23,378 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 132352 (D:\Java\xiaoqi2\target\classes started by luoshiwqng in D:\Java\xiaoqi2)
+[INFO]2024-05-30 15:02:23,378 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-30 15:02:23,640 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-30 15:02:23,640 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-30 15:02:23,649 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-30 15:02:23,796 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-30 15:02:23,797 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:23,797 - Starting service [Tomcat]
+[INFO]2024-05-30 15:02:23,797 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-30 15:02:23,825 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-30 15:02:23,825 - Root WebApplicationContext: initialization completed in 445 ms
+[INFO]2024-05-30 15:02:24,016 - 自定义Redis配置--
+[WARN]2024-05-30 15:02:24,153 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-30 15:02:24,207 - LiveReload server is running on port 35729
+[INFO]2024-05-30 15:02:24,216 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:24,225 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-30 15:02:24,234 - Started SpringbootApplication in 0.885 seconds (JVM running for 3468.172)
+[INFO]2024-05-30 15:02:24,235 - Condition evaluation unchanged
+[INFO]2024-05-30 15:02:26,669 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-05-30 15:02:27,094 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:27,094 - Stopping service [Tomcat]
+[INFO]2024-05-30 15:02:27,096 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:27,098 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:27,278 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 132352 (D:\Java\xiaoqi2\target\classes started by luoshiwqng in D:\Java\xiaoqi2)
+[INFO]2024-05-30 15:02:27,278 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-30 15:02:27,519 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-30 15:02:27,519 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-30 15:02:27,528 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-30 15:02:27,611 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-30 15:02:27,612 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:27,612 - Starting service [Tomcat]
+[INFO]2024-05-30 15:02:27,612 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-30 15:02:27,633 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-30 15:02:27,633 - Root WebApplicationContext: initialization completed in 354 ms
+[INFO]2024-05-30 15:02:27,788 - 自定义Redis配置--
+[WARN]2024-05-30 15:02:27,889 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-30 15:02:27,931 - LiveReload server is running on port 35729
+[INFO]2024-05-30 15:02:27,940 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-30 15:02:27,950 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-30 15:02:27,957 - Started SpringbootApplication in 0.706 seconds (JVM running for 3471.896)
+[INFO]2024-05-30 15:02:27,959 - Condition evaluation unchanged
+[INFO]2024-05-30 15:09:38,017 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-30 15:09:38,018 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-30 15:09:38,019 - Completed initialization in 1 ms
+[INFO]2024-05-30 15:09:38,022 - HikariPool-2 - Starting...
+[INFO]2024-05-30 15:09:38,031 - HikariPool-2 - Start completed.

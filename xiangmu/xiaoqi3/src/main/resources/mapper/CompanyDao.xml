@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.CompanyDao">
+
+    <resultMap type="com.test.springboot.entity.Company" id="CompanyMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="registrant" column="registrant" jdbcType="INTEGER"/>
+        <result property="lastNum" column="last_num" jdbcType="INTEGER"/>
+        <result property="manager" column="manager" jdbcType="INTEGER"/>
+        <result property="manager" column="hot" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CompanyMap">
+        select
+          id, name, description, registrant, last_num, manager,hot
+        from company
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CompanyMap">
+        select
+          id, name, description, registrant, last_num, manager
+        from company
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="registrant != null">
+                and registrant = #{registrant}
+            </if>
+            <if test="lastNum != null">
+                and last_num = #{lastNum}
+            </if>
+            <if test="manager != null">
+                and manager = #{manager}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from company
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="registrant != null">
+                and registrant = #{registrant}
+            </if>
+            <if test="lastNum != null">
+                and last_num = #{lastNum}
+            </if>
+            <if test="manager != null">
+                and manager = #{manager}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into company(name, description, registrant, last_num, manager,hot)
+        values (#{name}, #{description}, #{registrant}, #{lastNum}, #{manager},0)
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into company(name, description, registrant, last_num, manager)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.name}, #{entity.description}, #{entity.registrant}, #{entity.lastNum}, #{entity.manager})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into company(name, description, registrant, last_num, manager)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.name}, #{entity.description}, #{entity.registrant}, #{entity.lastNum}, #{entity.manager})
+        </foreach>
+        on duplicate key update
+        name = values(name),
+        description = values(description),
+        registrant = values(registrant),
+        last_num = values(last_num),
+        manager = values(manager)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update company
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="registrant != null">
+                registrant = #{registrant},
+            </if>
+            <if test="lastNum != null">
+                last_num = #{lastNum},
+            </if>
+            <if test="manager != null">
+                manager = #{manager},
+            </if>
+            <if test="hot != null">
+                hot = #{hot},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from company where id = #{id}
+    </delete>
+
+    <select id="getallcomany" resultMap="CompanyMap">
+        select * from company  limit #{page},#{limit}
+    </select>
+
+    <select id="getcount" resultMap="CompanyMap">
+        select * from company
+    </select>
+
+    <select id="getcompany" resultMap="CompanyMap">
+        select * from company where name=#{name} limit #{page},#{limit}
+    </select>
+
+    <select id="getcount1" resultMap="CompanyMap">
+        select * from company where name like concat('%', #{name}, '%');
+
+    </select>
+
+    <select id="showcomp" resultMap="CompanyMap">
+        select  * from  company where id=#{id}
+    </select>
+
+    <select id="isBossOrManager" resultType="java.lang.Object">
+        select * from company where registrant = #{id} or manager = #{id} limit 1
+    </select>
+
+    <select id="queryByUserId" resultType="int">
+        select
+            id
+        from
+            company
+        where
+            registrant = #{id} or manager = #{id}
+            limit 1
+
+    </select>
+
+    <select id="queryByRegistrantId" resultMap="CompanyMap">
+        select * from company where registrant = #{registrant}
+    </select>
+
+    <select id="getallcomany1" resultType="com.test.springboot.vo.CompanyVo">
+        SELECT  dow.id, dow.name, dow.description,dow.manager1,dow.hot,`user`.username registername
+        from(select company.id, company.name, company.description, company.registrant, user.username manager1,company.hot
+            from company, user
+        where company.manager = user.id ) AS dow ,`user` where dow.registrant = `user`.id
+            limit #{page}, #{limit};
+    </select>
+
+    <select id="getallcomany2" resultType="com.test.springboot.vo.CompanyVo">
+        SELECT  dow.id, dow.name, dow.description,dow.manager1,dow.hot,`user`.username registername
+        from(select company.id, company.name, company.description, company.registrant, user.username manager1,company.hot
+        from company, user
+        where company.manager = user.id ) AS dow ,`user`
+        <where>
+            dow.registrant = `user`.id
+            <if test="null != name">and dow.name like concat('%', #{name}, '%')</if>
+        </where>
+        limit #{page}, #{limit};
+    </select>
+
+    <select id="queryAll" resultMap="CompanyMap">
+        select
+            *
+        from
+            company
+    </select>
+</mapper>
+

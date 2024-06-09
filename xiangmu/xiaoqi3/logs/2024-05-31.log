@@ -1,0 +1,24 @@
+[INFO]2024-05-31 14:59:07,947 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 157428 (D:\Java\xiaoqi2\target\classes started by luoshiwqng in D:\Java\xiaoqi2)
+[INFO]2024-05-31 14:59:07,948 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-31 14:59:08,018 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-31 14:59:08,018 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-31 14:59:08,865 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-31 14:59:08,868 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-31 14:59:08,904 - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-31 14:59:09,699 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-31 14:59:09,708 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-31 14:59:09,710 - Starting service [Tomcat]
+[INFO]2024-05-31 14:59:09,710 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-31 14:59:09,854 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-31 14:59:09,854 - Root WebApplicationContext: initialization completed in 1835 ms
+[INFO]2024-05-31 14:59:10,784 - 自定义Redis配置--
+[WARN]2024-05-31 14:59:11,159 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-31 14:59:11,391 - LiveReload server is running on port 35729
+[INFO]2024-05-31 14:59:11,421 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-31 14:59:11,460 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-31 14:59:11,491 - Started SpringbootApplication in 4.308 seconds (JVM running for 6.941)
+[INFO]2024-05-31 15:01:46,073 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-31 15:01:46,073 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-31 15:01:46,074 - Completed initialization in 1 ms
+[INFO]2024-05-31 15:01:46,128 - HikariPool-1 - Starting...
+[INFO]2024-05-31 15:01:46,324 - HikariPool-1 - Start completed.

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.TrainingDao">
+
+    <resultMap type="com.test.springboot.entity.Training" id="TrainingMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="instId" column="inst_id" jdbcType="INTEGER"/>
+        <result property="charge" column="charge" jdbcType="INTEGER"/>
+        <result property="isInCoop" column="is_in_coop" jdbcType="INTEGER"/>
+        <result property="link" column="link" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="TrainingMap">
+        select
+          id, description, inst_id, charge, is_in_coop,link
+        from training
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="TrainingMap">
+        select
+          id, description, inst_id, charge, is_in_coop
+        from training
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="instId != null">
+                and inst_id = #{instId}
+            </if>
+            <if test="charge != null">
+                and charge = #{charge}
+            </if>
+            <if test="isInCoop != null">
+                and is_in_coop = #{isInCoop}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from training
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="instId != null">
+                and inst_id = #{instId}
+            </if>
+            <if test="charge != null">
+                and charge = #{charge}
+            </if>
+            <if test="isInCoop != null">
+                and is_in_coop = #{isInCoop}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into training(description, inst_id, charge, is_in_coop)
+        values (#{description}, #{instId}, #{charge}, #{isInCoop})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into training(description, inst_id, charge, is_in_coop)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.description}, #{entity.instId}, #{entity.charge}, #{entity.isInCoop})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into training(description, inst_id, charge, is_in_coop)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.description}, #{entity.instId}, #{entity.charge}, #{entity.isInCoop})
+        </foreach>
+        on duplicate key update
+        description = values(description),
+        inst_id = values(inst_id),
+        charge = values(charge),
+        is_in_coop = values(is_in_coop)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update training
+        <set>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="instId != null">
+                inst_id = #{instId},
+            </if>
+            <if test="charge != null">
+                charge = #{charge},
+            </if>
+            <if test="isInCoop != null">
+                is_in_coop = #{isInCoop},
+            </if>
+            <if test="link != null">
+                link = #{link},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from training where id = #{id}
+    </delete>
+    <select id="gettrain" resultMap="TrainingMap">
+        select * from training  limit #{page},#{limit}
+    </select>
+
+    <select id="getcount" resultMap="TrainingMap">
+        select * from training
+    </select>
+
+
+
+    <select id="getSpecificTrainingsByInstId" resultMap="TrainingMap">
+        select
+            *
+        from
+            training
+        where
+            inst_id = #{id} and description like CONCAT('%',#{param2},'%')
+    </select>
+
+    <select id="search1" resultMap="TrainingMap">
+        select  * from training where id=#{id}
+    </select>
+
+    <insert id="insert1" keyProperty="id" useGeneratedKeys="true">
+        insert into training(charge,description, inst_id,is_in_coop)
+        values (#{userId},#{desc},#{instId},#{isCoop})
+    </insert>
+
+    <insert id="insert2">
+        insert into training(charge,description, inst_id,is_in_coop,link)
+        values (#{userId},#{desc},#{instId},#{isCoop},#{link})
+    </insert>
+
+    <select id="train" resultType="com.test.springboot.vo.TrainVo">
+        select training_id, institution.name instName, training.description, user.username name, training.is_in_coop,training.link
+        from user_training, training, institution, inst_staff, user
+        where user_training.user_id = #{userId}
+          and user_training.training_id = training.id
+          and training.inst_id = institution.id
+          and training.charge = inst_staff.id
+          and inst_staff.user_id = user.id
+        ;
+    </select>
+
+    <select id="getAllTrainingsByInstId" resultType="com.test.springboot.vo.TrainVo">
+        select training.id,training.inst_id,training.description,training.is_in_coop,`user`.username registername from training ,`user`,inst_staff where training.charge =inst_staff.id and inst_staff.user_id = `user`.id and training.inst_id = #{id}
+    </select>
+</mapper>
+

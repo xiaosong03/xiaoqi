@@ -1,0 +1,41 @@
+[INFO]2024-05-14 15:53:06,290 - Starting SpringbootApplication using Java 1.8.0_51 on laishiwen with PID 14100 (D:\2024教学\成都理工\springboot\target\classes started by 赖世文 in D:\2024教学\成都理工\springboot)
+[INFO]2024-05-14 15:53:06,291 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-14 15:53:06,324 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-14 15:53:06,324 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-14 15:53:07,012 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-14 15:53:07,014 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-14 15:53:07,032 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-14 15:53:07,966 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-14 15:53:07,973 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-14 15:53:07,974 - Starting service [Tomcat]
+[INFO]2024-05-14 15:53:07,974 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-14 15:53:08,366 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-14 15:53:08,366 - Root WebApplicationContext: initialization completed in 2042 ms
+[INFO]2024-05-14 15:53:08,917 - 自定义Redis配置--
+[WARN]2024-05-14 15:53:09,118 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-14 15:53:09,278 - LiveReload server is running on port 35729
+[INFO]2024-05-14 15:53:09,288 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-14 15:53:09,301 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-14 15:53:09,322 - Started SpringbootApplication in 3.348 seconds (JVM running for 4.035)
+[INFO]2024-05-14 15:53:52,594 - Starting SpringbootApplication using Java 1.8.0_51 on laishiwen with PID 12900 (D:\2024教学\成都理工\springboot\target\classes started by 赖世文 in D:\2024教学\成都理工\springboot)
+[INFO]2024-05-14 15:53:52,595 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-14 15:53:52,621 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-14 15:53:52,621 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-14 15:53:53,030 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-14 15:53:53,032 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-14 15:53:53,050 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-14 15:53:53,385 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-14 15:53:53,389 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-14 15:53:53,389 - Starting service [Tomcat]
+[INFO]2024-05-14 15:53:53,389 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-14 15:53:53,423 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-14 15:53:53,423 - Root WebApplicationContext: initialization completed in 802 ms
+[INFO]2024-05-14 15:53:53,823 - 自定义Redis配置--
+[WARN]2024-05-14 15:53:53,993 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-14 15:53:54,142 - LiveReload server is running on port 35729
+[INFO]2024-05-14 15:53:54,151 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-14 15:53:54,165 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-14 15:53:54,181 - Started SpringbootApplication in 1.834 seconds (JVM running for 2.306)
+[INFO]2024-05-14 15:54:15,348 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-14 15:54:15,348 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-14 15:54:15,349 - Completed initialization in 1 ms

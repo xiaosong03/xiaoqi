@@ -1,0 +1,752 @@
+[INFO]2024-05-19 10:54:54,671 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 29756 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 10:54:54,672 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 10:54:54,720 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 10:54:54,720 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 10:54:55,361 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 10:54:55,362 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 10:54:55,395 - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 10:54:56,033 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 10:54:56,040 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 10:54:56,041 - Starting service [Tomcat]
+[INFO]2024-05-19 10:54:56,041 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 10:54:56,129 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 10:54:56,129 - Root WebApplicationContext: initialization completed in 1408 ms
+[WARN]2024-05-19 10:54:56,409 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+[INFO]2024-05-19 10:54:56,411 - Stopping service [Tomcat]
+[ERROR]2024-05-19 10:54:56,460 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8fc7abc1.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8fc7abc1$$FastClassBySpringCGLIB$$480d091f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8fc7abc1.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-05-19 10:56:04,436 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 10768 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 10:56:04,437 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 10:56:04,472 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 10:56:04,473 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 10:56:04,953 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 10:56:04,954 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 10:56:04,975 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 10:56:05,445 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 10:56:05,452 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 10:56:05,452 - Starting service [Tomcat]
+[INFO]2024-05-19 10:56:05,452 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 10:56:05,526 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 10:56:05,526 - Root WebApplicationContext: initialization completed in 1053 ms
+[WARN]2024-05-19 10:56:05,769 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+[INFO]2024-05-19 10:56:05,771 - Stopping service [Tomcat]
+[ERROR]2024-05-19 10:56:05,811 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cdf08a6a.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cdf08a6a$$FastClassBySpringCGLIB$$55bc552d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cdf08a6a.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\CourseDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.Course'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.Course
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-05-19 10:59:16,903 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 45436 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 10:59:16,904 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 10:59:16,941 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 10:59:16,941 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 10:59:17,480 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 10:59:17,482 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 10:59:17,506 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 10:59:18,084 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 10:59:18,090 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 10:59:18,091 - Starting service [Tomcat]
+[INFO]2024-05-19 10:59:18,091 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 10:59:18,177 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 10:59:18,177 - Root WebApplicationContext: initialization completed in 1235 ms
+[INFO]2024-05-19 10:59:18,744 - 自定义Redis配置--
+[WARN]2024-05-19 10:59:18,975 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 10:59:19,116 - LiveReload server is running on port 35729
+[INFO]2024-05-19 10:59:19,134 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 10:59:19,150 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 10:59:19,169 - Started SpringbootApplication in 2.607 seconds (JVM running for 3.571)
+[INFO]2024-05-19 11:07:38,467 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 36668 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 11:07:38,468 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 11:07:38,511 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 11:07:38,511 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 11:07:39,110 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 11:07:39,112 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 11:07:39,135 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 11:07:39,667 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 11:07:39,674 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 11:07:39,674 - Starting service [Tomcat]
+[INFO]2024-05-19 11:07:39,674 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 11:07:39,748 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 11:07:39,749 - Root WebApplicationContext: initialization completed in 1238 ms
+[INFO]2024-05-19 11:07:40,273 - 自定义Redis配置--
+[WARN]2024-05-19 11:07:40,490 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 11:07:40,627 - LiveReload server is running on port 35729
+[INFO]2024-05-19 11:07:40,644 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 11:07:40,657 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 11:07:40,672 - Started SpringbootApplication in 2.549 seconds (JVM running for 3.478)
+[INFO]2024-05-19 11:29:27,108 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 23728 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 11:29:27,109 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 11:29:27,149 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 11:29:27,149 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 11:29:27,720 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 11:29:27,722 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 11:29:27,745 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 11:29:28,282 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 11:29:28,288 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 11:29:28,289 - Starting service [Tomcat]
+[INFO]2024-05-19 11:29:28,289 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 11:29:28,358 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 11:29:28,358 - Root WebApplicationContext: initialization completed in 1209 ms
+[INFO]2024-05-19 11:29:28,901 - 自定义Redis配置--
+[WARN]2024-05-19 11:29:29,148 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 11:29:29,294 - LiveReload server is running on port 35729
+[INFO]2024-05-19 11:29:29,314 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 11:29:29,331 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 11:29:29,347 - Started SpringbootApplication in 2.595 seconds (JVM running for 3.51)
+[INFO]2024-05-19 15:02:43,607 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 45276 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:02:43,608 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:02:43,648 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 15:02:43,648 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 15:02:44,234 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:02:44,236 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:02:44,256 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:02:44,764 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:02:44,770 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:02:44,770 - Starting service [Tomcat]
+[INFO]2024-05-19 15:02:44,771 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:02:44,847 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:02:44,847 - Root WebApplicationContext: initialization completed in 1198 ms
+[INFO]2024-05-19 15:02:45,442 - 自定义Redis配置--
+[WARN]2024-05-19 15:02:45,697 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:02:45,867 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:02:45,883 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:02:45,897 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:02:45,915 - Started SpringbootApplication in 2.681 seconds (JVM running for 3.64)
+[INFO]2024-05-19 15:09:32,659 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-19 15:09:32,659 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-19 15:09:32,661 - Completed initialization in 2 ms
+[WARN]2024-05-19 15:09:32,692 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[INFO]2024-05-19 15:11:19,527 - HikariPool-1 - Starting...
+[INFO]2024-05-19 15:11:19,663 - HikariPool-1 - Start completed.
+[WARN]2024-05-19 15:11:19,763 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where id = ?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = null' at line 3]
+[WARN]2024-05-19 15:14:21,173 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where id = ?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = null' at line 3]
+[INFO]2024-05-19 15:17:42,868 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-19 15:17:42,875 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-19 15:17:49,927 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 46544 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:17:49,928 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:17:49,964 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 15:17:49,965 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 15:17:50,608 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:17:50,610 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:17:50,638 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:17:51,241 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:17:51,248 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:17:51,249 - Starting service [Tomcat]
+[INFO]2024-05-19 15:17:51,249 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:17:51,345 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:17:51,345 - Root WebApplicationContext: initialization completed in 1380 ms
+[INFO]2024-05-19 15:17:51,945 - 自定义Redis配置--
+[WARN]2024-05-19 15:17:52,181 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:17:52,327 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:17:52,346 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:17:52,364 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:17:52,383 - Started SpringbootApplication in 2.824 seconds (JVM running for 3.871)
+[INFO]2024-05-19 15:17:59,162 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-19 15:17:59,162 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-19 15:17:59,163 - Completed initialization in 1 ms
+[INFO]2024-05-19 15:17:59,218 - HikariPool-1 - Starting...
+[INFO]2024-05-19 15:17:59,315 - HikariPool-1 - Start completed.
+[WARN]2024-05-19 15:17:59,447 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where username = ? and id_card=?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3]
+[WARN]2024-05-19 15:18:12,409 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where username = ? and id_card=?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3]
+[INFO]2024-05-19 15:20:30,470 - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+[INFO]2024-05-19 15:20:30,904 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:30,904 - Stopping service [Tomcat]
+[INFO]2024-05-19 15:20:30,904 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-19 15:20:30,907 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-19 15:20:30,908 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:30,909 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:30,926 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-19 15:20:30,933 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-19 15:20:31,065 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 46544 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:20:31,065 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:20:31,272 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:20:31,272 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:20:31,280 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:20:31,411 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:20:31,412 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:31,412 - Starting service [Tomcat]
+[INFO]2024-05-19 15:20:31,412 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:20:31,438 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:20:31,438 - Root WebApplicationContext: initialization completed in 371 ms
+[WARN]2024-05-19 15:20:31,545 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+[INFO]2024-05-19 15:20:31,545 - Stopping service [Tomcat]
+[ERROR]2024-05-19 15:20:31,592 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5a87b085.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5a87b085$$FastClassBySpringCGLIB$$be89ab04.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5a87b085.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-05-19 15:20:35,102 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 46544 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:20:35,102 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:20:35,291 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:20:35,292 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:20:35,303 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:20:35,416 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:20:35,416 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:35,416 - Starting service [Tomcat]
+[INFO]2024-05-19 15:20:35,417 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:20:35,438 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:20:35,439 - Root WebApplicationContext: initialization completed in 335 ms
+[INFO]2024-05-19 15:20:35,596 - 自定义Redis配置--
+[WARN]2024-05-19 15:20:35,689 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:20:35,753 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:20:35,764 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:35,767 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:20:35,775 - Started SpringbootApplication in 0.704 seconds (JVM running for 167.264)
+[INFO]2024-05-19 15:20:35,777 - Condition evaluation unchanged
+[INFO]2024-05-19 15:20:46,190 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 2040 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:20:46,191 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:20:46,229 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 15:20:46,229 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 15:20:46,777 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:20:46,779 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:20:46,802 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:20:47,334 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:20:47,341 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:47,341 - Starting service [Tomcat]
+[INFO]2024-05-19 15:20:47,341 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:20:47,432 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:20:47,432 - Root WebApplicationContext: initialization completed in 1203 ms
+[INFO]2024-05-19 15:20:48,067 - 自定义Redis配置--
+[WARN]2024-05-19 15:20:48,350 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:20:48,526 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:20:48,544 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:20:48,560 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:20:48,575 - Started SpringbootApplication in 2.739 seconds (JVM running for 3.669)
+[INFO]2024-05-19 15:20:54,742 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-19 15:20:54,742 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-19 15:20:54,743 - Completed initialization in 1 ms
+[INFO]2024-05-19 15:20:54,805 - HikariPool-1 - Starting...
+[INFO]2024-05-19 15:20:54,920 - HikariPool-1 - Start completed.
+[WARN]2024-05-19 15:20:55,043 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where username = ? and id_card=?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3]
+[WARN]2024-05-19 15:24:41,461 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where username = ? and id_card=?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3]
+[WARN]2024-05-19 15:25:02,254 - Resolved [org.springframework.jdbc.BadSqlGrammarException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: update user                    where username = ? and id_card=?<EOL><EOL>### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3<EOL>; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username = null and id_card=null' at line 3]
+[INFO]2024-05-19 15:25:44,537 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-19 15:25:44,882 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:44,883 - Stopping service [Tomcat]
+[INFO]2024-05-19 15:25:44,884 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-19 15:25:44,886 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-19 15:25:44,887 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:44,889 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:44,906 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-19 15:25:44,914 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-19 15:25:45,053 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 2040 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:25:45,053 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:25:45,257 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:25:45,257 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:25:45,266 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:25:45,388 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:25:45,388 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:45,388 - Starting service [Tomcat]
+[INFO]2024-05-19 15:25:45,389 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:25:45,410 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:25:45,410 - Root WebApplicationContext: initialization completed in 355 ms
+[INFO]2024-05-19 15:25:45,561 - 自定义Redis配置--
+[WARN]2024-05-19 15:25:45,662 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:25:45,765 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:25:45,782 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:45,786 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:25:45,798 - Started SpringbootApplication in 0.771 seconds (JVM running for 300.891)
+[INFO]2024-05-19 15:25:45,800 - Condition evaluation unchanged
+[INFO]2024-05-19 15:25:48,228 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-05-19 15:25:51,517 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 1524 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:25:51,519 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:25:51,562 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 15:25:51,562 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 15:25:52,173 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:25:52,175 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:25:52,202 - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:25:52,783 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:25:52,789 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:52,790 - Starting service [Tomcat]
+[INFO]2024-05-19 15:25:52,790 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:25:52,891 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:25:52,891 - Root WebApplicationContext: initialization completed in 1329 ms
+[INFO]2024-05-19 15:25:53,581 - 自定义Redis配置--
+[WARN]2024-05-19 15:25:53,856 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:25:54,009 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:25:54,035 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:25:54,055 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:25:54,074 - Started SpringbootApplication in 2.929 seconds (JVM running for 4.317)
+[INFO]2024-05-19 15:25:59,667 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-19 15:25:59,667 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-19 15:25:59,669 - Completed initialization in 2 ms
+[INFO]2024-05-19 15:25:59,762 - HikariPool-1 - Starting...
+[INFO]2024-05-19 15:25:59,894 - HikariPool-1 - Start completed.
+[INFO]2024-05-19 15:30:59,117 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-19 15:30:59,441 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:30:59,441 - Stopping service [Tomcat]
+[INFO]2024-05-19 15:30:59,442 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-19 15:30:59,445 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-19 15:30:59,446 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:30:59,447 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:30:59,466 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-19 15:30:59,473 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-19 15:30:59,606 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 1524 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:30:59,606 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:30:59,815 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:30:59,816 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:30:59,826 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:30:59,949 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:30:59,949 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:30:59,949 - Starting service [Tomcat]
+[INFO]2024-05-19 15:30:59,949 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:30:59,973 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:30:59,973 - Root WebApplicationContext: initialization completed in 364 ms
+[INFO]2024-05-19 15:31:00,130 - 自定义Redis配置--
+[WARN]2024-05-19 15:31:00,219 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:31:00,290 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:31:00,301 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:31:00,304 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:31:00,313 - Started SpringbootApplication in 0.731 seconds (JVM running for 310.555)
+[INFO]2024-05-19 15:31:00,315 - Condition evaluation unchanged
+[INFO]2024-05-19 15:35:22,157 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 26076 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:35:22,158 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:35:22,195 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-19 15:35:22,196 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-19 15:35:22,777 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:35:22,779 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:35:22,807 - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:35:23,433 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:35:23,442 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:35:23,442 - Starting service [Tomcat]
+[INFO]2024-05-19 15:35:23,443 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:35:23,538 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:35:23,538 - Root WebApplicationContext: initialization completed in 1342 ms
+[INFO]2024-05-19 15:35:24,194 - 自定义Redis配置--
+[WARN]2024-05-19 15:35:24,448 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:35:24,604 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:35:24,620 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:35:24,634 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:35:24,648 - Started SpringbootApplication in 2.896 seconds (JVM running for 3.965)
+[INFO]2024-05-19 15:36:13,070 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-19 15:36:13,070 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-19 15:36:13,071 - Completed initialization in 1 ms
+[INFO]2024-05-19 15:36:13,167 - HikariPool-1 - Starting...
+[INFO]2024-05-19 15:36:13,282 - HikariPool-1 - Start completed.
+[INFO]2024-05-19 15:48:43,401 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-19 15:48:43,779 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:43,779 - Stopping service [Tomcat]
+[INFO]2024-05-19 15:48:43,780 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-19 15:48:43,782 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-19 15:48:43,783 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:43,784 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:43,807 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-19 15:48:43,812 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-19 15:48:43,942 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 26076 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:48:43,942 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:48:44,148 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:48:44,148 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:48:44,156 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:48:44,287 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:48:44,288 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:44,288 - Starting service [Tomcat]
+[INFO]2024-05-19 15:48:44,288 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:48:44,313 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:48:44,313 - Root WebApplicationContext: initialization completed in 369 ms
+[INFO]2024-05-19 15:48:44,470 - 自定义Redis配置--
+[WARN]2024-05-19 15:48:44,553 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:48:44,620 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:48:44,634 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:44,637 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:48:44,647 - Started SpringbootApplication in 0.73 seconds (JVM running for 803.964)
+[INFO]2024-05-19 15:48:44,649 - Condition evaluation unchanged
+[INFO]2024-05-19 15:48:47,078 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-05-19 15:48:47,386 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:47,386 - Stopping service [Tomcat]
+[INFO]2024-05-19 15:48:47,388 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:47,390 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:47,525 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 26076 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-19 15:48:47,525 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-19 15:48:47,666 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-19 15:48:47,666 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-19 15:48:47,672 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-19 15:48:47,734 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-19 15:48:47,734 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:47,734 - Starting service [Tomcat]
+[INFO]2024-05-19 15:48:47,734 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-19 15:48:47,755 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-19 15:48:47,755 - Root WebApplicationContext: initialization completed in 229 ms
+[INFO]2024-05-19 15:48:47,845 - 自定义Redis配置--
+[WARN]2024-05-19 15:48:47,927 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-19 15:48:47,985 - LiveReload server is running on port 35729
+[INFO]2024-05-19 15:48:47,992 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-19 15:48:47,994 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-19 15:48:48,001 - Started SpringbootApplication in 0.496 seconds (JVM running for 807.318)
+[INFO]2024-05-19 15:48:48,002 - Condition evaluation unchanged

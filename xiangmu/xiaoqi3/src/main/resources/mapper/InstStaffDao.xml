@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.InstStaffDao">
+
+    <resultMap type="com.test.springboot.entity.InstStaff" id="InstStaffMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="instId" column="inst_id" jdbcType="INTEGER"/>
+        <result property="number" column="number" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="job" column="job" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InstStaffMap">
+        select
+          id, inst_id, number, user_id, job
+        from inst_staff
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InstStaffMap">
+        select
+          id, inst_id, number, user_id, job
+        from inst_staff
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="instId != null">
+                and inst_id = #{instId}
+            </if>
+            <if test="number != null">
+                and number = #{number}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="job != null">
+                and job = #{job}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from inst_staff
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="instId != null">
+                and inst_id = #{instId}
+            </if>
+            <if test="number != null">
+                and number = #{number}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="job != null">
+                and job = #{job}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into inst_staff(inst_id, number, user_id, job)
+        values (#{instId}, #{number}, #{userId}, #{job})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into inst_staff(inst_id, number, user_id, job)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.instId}, #{entity.number}, #{entity.userId}, #{entity.job})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into inst_staff(inst_id, number, user_id, job)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.instId}, #{entity.number}, #{entity.userId}, #{entity.job})
+        </foreach>
+        on duplicate key update
+        inst_id = values(inst_id),
+        number = values(number),
+        user_id = values(user_id),
+        job = values(job)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update inst_staff
+        <set>
+            <if test="instId != null">
+                inst_id = #{instId},
+            </if>
+            <if test="number != null">
+                number = #{number},
+            </if>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="job != null">
+                job = #{job},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from inst_staff where id = #{id}
+    </delete>
+
+    <select id="search" resultType="com.test.springboot.vo.InstStaffVo">
+        select inst_staff.id,inst_staff.inst_id,inst_staff.number,inst_staff.job job1, user.username nickname FROM inst_staff,user
+        where inst_staff.user_id = user.id and inst_staff.user_id=#{userId}
+    </select>
+
+    <select id="search1" resultType="com.test.springboot.vo.InstStaffVo">
+        select user.id userId, inst_staff.job job1,inst_staff.number,`user`.username nickname
+        FROM inst_staff,`user`
+        WHERE inst_id=#{initid} and inst_staff.user_id=`user`.id
+    </select>
+
+    <select id="search2" resultMap="InstStaffMap">
+        select  * from inst_staff where user_id = #{id}
+    </select>
+
+    <delete id="deleteById1">
+        delete from inst_staff where user_id = #{userId}
+    </delete>
+
+    <select id="getfu" resultType="com.test.springboot.vo.InstStaffVo">
+        SELECT `user`.username nickname,inst_staff.job job1, inst_staff.number FROM `user`,inst_staff,training
+        where  training.charge=inst_staff.id and inst_staff.user_id=`user`.id and training.id=#{trainingId}
+    </select>
+
+
+
+
+
+    <select id="getzhi" resultType="com.test.springboot.vo.InstStaffVo">
+        SELECT `user`.username nickname,inst_staff.job job1, inst_staff.number FROM `user`,inst_staff,training,inst_staff_training
+        where  training.id=inst_staff_training.training_id and inst_staff_training.inst_staff_id=inst_staff.id and training.id= #{trainingId} and inst_staff.user_id=`user`.id
+    </select>
+
+    <select id="getcan" resultType="com.test.springboot.vo.InstStaffVo">
+        SELECT `user`.username nickname FROM `user`,training, user_training
+        where  training.id=user_training.training_id and training.id=#{trianingId} and user_training.user_id=`user`.id
+    </select>
+</mapper>
+

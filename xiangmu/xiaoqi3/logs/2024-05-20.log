@@ -1,0 +1,1300 @@
+[INFO]2024-05-20 09:01:01,571 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 25164 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 09:01:01,572 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 09:01:01,611 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 09:01:01,611 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 09:01:02,190 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 09:01:02,191 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 09:01:02,214 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 09:01:02,891 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 09:01:02,903 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:01:02,904 - Starting service [Tomcat]
+[INFO]2024-05-20 09:01:02,905 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 09:01:03,049 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 09:01:03,049 - Root WebApplicationContext: initialization completed in 1438 ms
+[INFO]2024-05-20 09:01:03,797 - 自定义Redis配置--
+[WARN]2024-05-20 09:01:04,103 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 09:01:04,262 - LiveReload server is running on port 35729
+[INFO]2024-05-20 09:01:04,285 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:01:04,305 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 09:01:04,328 - Started SpringbootApplication in 3.095 seconds (JVM running for 4.102)
+[INFO]2024-05-20 09:12:51,549 - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[INFO]2024-05-20 09:12:51,917 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:51,917 - Stopping service [Tomcat]
+[INFO]2024-05-20 09:12:51,921 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:51,922 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:52,063 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 25164 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 09:12:52,063 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 09:12:52,236 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 09:12:52,236 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 09:12:52,243 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 09:12:52,346 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 09:12:52,346 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:52,346 - Starting service [Tomcat]
+[INFO]2024-05-20 09:12:52,346 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 09:12:52,369 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 09:12:52,369 - Root WebApplicationContext: initialization completed in 304 ms
+[INFO]2024-05-20 09:12:52,507 - 自定义Redis配置--
+[WARN]2024-05-20 09:12:52,594 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 09:12:52,635 - LiveReload server is running on port 35729
+[INFO]2024-05-20 09:12:52,643 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:52,646 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 09:12:52,660 - Started SpringbootApplication in 0.622 seconds (JVM running for 712.434)
+[INFO]2024-05-20 09:12:52,661 - Condition evaluation unchanged
+[INFO]2024-05-20 09:12:55,111 - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[INFO]2024-05-20 09:12:55,419 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:55,420 - Stopping service [Tomcat]
+[INFO]2024-05-20 09:12:55,422 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:55,424 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:55,592 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 25164 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 09:12:55,592 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 09:12:55,800 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 09:12:55,800 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 09:12:55,807 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 09:12:55,886 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 09:12:55,886 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:55,886 - Starting service [Tomcat]
+[INFO]2024-05-20 09:12:55,886 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 09:12:55,911 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 09:12:55,911 - Root WebApplicationContext: initialization completed in 317 ms
+[INFO]2024-05-20 09:12:56,040 - 自定义Redis配置--
+[WARN]2024-05-20 09:12:56,148 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 09:12:56,206 - LiveReload server is running on port 35729
+[INFO]2024-05-20 09:12:56,214 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:12:56,215 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 09:12:56,224 - Started SpringbootApplication in 0.66 seconds (JVM running for 715.998)
+[INFO]2024-05-20 09:12:56,225 - Condition evaluation unchanged
+[INFO]2024-05-20 09:18:27,277 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 23516 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 09:18:27,278 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 09:18:27,325 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 09:18:27,325 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 09:18:27,851 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 09:18:27,852 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 09:18:27,878 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 09:18:28,399 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 09:18:28,404 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:18:28,405 - Starting service [Tomcat]
+[INFO]2024-05-20 09:18:28,405 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 09:18:28,483 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 09:18:28,484 - Root WebApplicationContext: initialization completed in 1159 ms
+[INFO]2024-05-20 09:18:29,053 - 自定义Redis配置--
+[WARN]2024-05-20 09:18:29,284 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 09:18:29,433 - LiveReload server is running on port 35729
+[INFO]2024-05-20 09:18:29,450 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:18:29,463 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 09:18:29,478 - Started SpringbootApplication in 2.569 seconds (JVM running for 3.587)
+[INFO]2024-05-20 09:19:08,456 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 09:19:08,456 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 09:19:08,457 - Completed initialization in 1 ms
+[INFO]2024-05-20 09:19:08,506 - HikariPool-1 - Starting...
+[INFO]2024-05-20 09:19:08,617 - HikariPool-1 - Start completed.
+[INFO]2024-05-20 09:25:17,174 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-20 09:25:17,512 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:25:17,513 - Stopping service [Tomcat]
+[INFO]2024-05-20 09:25:17,513 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-20 09:25:17,516 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-20 09:25:17,517 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:25:17,518 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:25:17,562 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-20 09:25:17,569 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-20 09:25:17,678 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 23516 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 09:25:17,678 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 09:25:18,021 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 09:25:18,021 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 09:25:18,045 - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 09:25:18,252 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 09:25:18,253 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:25:18,253 - Starting service [Tomcat]
+[INFO]2024-05-20 09:25:18,253 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 09:25:18,283 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 09:25:18,283 - Root WebApplicationContext: initialization completed in 603 ms
+[INFO]2024-05-20 09:25:18,450 - 自定义Redis配置--
+[WARN]2024-05-20 09:25:18,583 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 09:25:18,638 - LiveReload server is running on port 35729
+[INFO]2024-05-20 09:25:18,647 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 09:25:18,649 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 09:25:18,657 - Started SpringbootApplication in 1.002 seconds (JVM running for 412.766)
+[INFO]2024-05-20 09:25:18,659 - Condition evaluation unchanged
+[INFO]2024-05-20 14:10:33,102 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 20104 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 14:10:33,103 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 14:10:33,141 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 14:10:33,141 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 14:10:33,700 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 14:10:33,702 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 14:10:33,728 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 14:10:34,254 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 14:10:34,259 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:10:34,260 - Starting service [Tomcat]
+[INFO]2024-05-20 14:10:34,260 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 14:10:34,334 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 14:10:34,334 - Root WebApplicationContext: initialization completed in 1193 ms
+[INFO]2024-05-20 14:10:34,890 - 自定义Redis配置--
+[WARN]2024-05-20 14:10:35,179 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 14:10:35,349 - LiveReload server is running on port 35729
+[INFO]2024-05-20 14:10:35,368 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:10:35,381 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 14:10:35,398 - Started SpringbootApplication in 2.62 seconds (JVM running for 3.603)
+[INFO]2024-05-20 14:10:35,615 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 14:10:35,615 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 14:10:35,616 - Completed initialization in 1 ms
+[INFO]2024-05-20 14:11:33,276 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 17424 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 14:11:33,277 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 14:11:33,312 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 14:11:33,312 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 14:11:33,816 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 14:11:33,818 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 14:11:33,840 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 14:11:34,315 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 14:11:34,322 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:11:34,322 - Starting service [Tomcat]
+[INFO]2024-05-20 14:11:34,322 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 14:11:34,399 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 14:11:34,399 - Root WebApplicationContext: initialization completed in 1087 ms
+[INFO]2024-05-20 14:11:34,954 - 自定义Redis配置--
+[WARN]2024-05-20 14:11:35,177 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 14:11:35,317 - LiveReload server is running on port 35729
+[INFO]2024-05-20 14:11:35,340 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:11:35,355 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 14:11:35,376 - Started SpringbootApplication in 2.427 seconds (JVM running for 3.334)
+[INFO]2024-05-20 14:11:57,610 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 14:11:57,610 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 14:11:57,611 - Completed initialization in 1 ms
+[INFO]2024-05-20 14:15:04,531 - HikariPool-1 - Starting...
+[INFO]2024-05-20 14:15:04,624 - HikariPool-1 - Start completed.
+[INFO]2024-05-20 14:33:59,372 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-20 14:33:59,380 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-20 14:34:05,230 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 32760 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 14:34:05,231 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 14:34:05,264 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 14:34:05,264 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 14:34:05,751 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 14:34:05,752 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 14:34:05,773 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 14:34:06,240 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 14:34:06,252 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:34:06,253 - Starting service [Tomcat]
+[INFO]2024-05-20 14:34:06,253 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 14:34:06,338 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 14:34:06,339 - Root WebApplicationContext: initialization completed in 1075 ms
+[INFO]2024-05-20 14:34:06,972 - 自定义Redis配置--
+[WARN]2024-05-20 14:34:07,252 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 14:34:07,428 - LiveReload server is running on port 35729
+[INFO]2024-05-20 14:34:07,449 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:34:07,465 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 14:34:07,488 - Started SpringbootApplication in 2.597 seconds (JVM running for 3.494)
+[INFO]2024-05-20 14:43:20,196 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 14:43:20,196 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 14:43:20,236 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 14:43:20,236 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 14:43:20,769 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 14:43:20,770 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 14:43:20,792 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 14:43:21,271 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 14:43:21,278 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:43:21,278 - Starting service [Tomcat]
+[INFO]2024-05-20 14:43:21,279 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 14:43:21,358 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 14:43:21,358 - Root WebApplicationContext: initialization completed in 1122 ms
+[INFO]2024-05-20 14:43:21,904 - 自定义Redis配置--
+[WARN]2024-05-20 14:43:22,163 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 14:43:22,331 - LiveReload server is running on port 35729
+[INFO]2024-05-20 14:43:22,355 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:43:22,369 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 14:43:22,383 - Started SpringbootApplication in 2.606 seconds (JVM running for 3.526)
+[INFO]2024-05-20 14:45:03,508 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 14:45:03,508 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 14:45:03,510 - Completed initialization in 2 ms
+[INFO]2024-05-20 14:45:03,645 - HikariPool-1 - Starting...
+[INFO]2024-05-20 14:45:03,781 - HikariPool-1 - Start completed.
+[INFO]2024-05-20 14:57:15,404 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-20 14:57:15,726 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:15,726 - Stopping service [Tomcat]
+[INFO]2024-05-20 14:57:15,727 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-20 14:57:15,731 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-20 14:57:15,731 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:15,733 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:15,751 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-20 14:57:15,759 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-20 14:57:15,877 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 14:57:15,877 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 14:57:16,064 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 14:57:16,064 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 14:57:16,072 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 14:57:16,189 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 14:57:16,189 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:16,189 - Starting service [Tomcat]
+[INFO]2024-05-20 14:57:16,190 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 14:57:16,216 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 14:57:16,217 - Root WebApplicationContext: initialization completed in 339 ms
+[INFO]2024-05-20 14:57:16,352 - 自定义Redis配置--
+[WARN]2024-05-20 14:57:16,430 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 14:57:16,470 - LiveReload server is running on port 35729
+[INFO]2024-05-20 14:57:16,479 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:16,482 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 14:57:16,490 - Started SpringbootApplication in 0.643 seconds (JVM running for 837.633)
+[INFO]2024-05-20 14:57:16,491 - Condition evaluation unchanged
+[INFO]2024-05-20 14:57:18,939 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-05-20 14:57:19,223 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:19,223 - Stopping service [Tomcat]
+[INFO]2024-05-20 14:57:19,227 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:19,229 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:19,359 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 14:57:19,359 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 14:57:19,490 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 14:57:19,490 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 14:57:19,496 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 14:57:19,556 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 14:57:19,556 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:19,556 - Starting service [Tomcat]
+[INFO]2024-05-20 14:57:19,556 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 14:57:19,574 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 14:57:19,574 - Root WebApplicationContext: initialization completed in 214 ms
+[INFO]2024-05-20 14:57:19,674 - 自定义Redis配置--
+[WARN]2024-05-20 14:57:19,759 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 14:57:19,805 - LiveReload server is running on port 35729
+[INFO]2024-05-20 14:57:19,812 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 14:57:19,814 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 14:57:19,820 - Started SpringbootApplication in 0.482 seconds (JVM running for 840.964)
+[INFO]2024-05-20 14:57:19,821 - Condition evaluation unchanged
+[INFO]2024-05-20 15:02:05,658 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-20 15:02:06,047 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:02:06,047 - Stopping service [Tomcat]
+[INFO]2024-05-20 15:02:06,050 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:02:06,052 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:02:06,164 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:02:06,164 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:02:06,313 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:02:06,313 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:02:06,319 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:02:06,424 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:02:06,425 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:02:06,425 - Starting service [Tomcat]
+[INFO]2024-05-20 15:02:06,425 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:02:06,445 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:02:06,445 - Root WebApplicationContext: initialization completed in 279 ms
+[WARN]2024-05-20 15:02:06,560 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@410221d8]
+[INFO]2024-05-20 15:02:06,561 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:02:06,602 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@410221d8]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@410221d8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@410221d8]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 34 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/test/springboot/dao/UserDao;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.test.springboot.dao.UserDao
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 44 common frames omitted
+[INFO]2024-05-20 15:02:09,087 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:02:09,087 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:02:09,258 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:02:09,258 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:02:09,266 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:02:09,336 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:02:09,337 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:02:09,337 - Starting service [Tomcat]
+[INFO]2024-05-20 15:02:09,337 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:02:09,426 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:02:09,426 - Root WebApplicationContext: initialization completed in 338 ms
+[INFO]2024-05-20 15:02:09,548 - 自定义Redis配置--
+[WARN]2024-05-20 15:02:09,626 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 15:02:09,665 - LiveReload server is running on port 35729
+[INFO]2024-05-20 15:02:09,676 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:02:09,678 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 15:02:09,688 - Started SpringbootApplication in 0.624 seconds (JVM running for 1130.831)
+[INFO]2024-05-20 15:02:09,689 - Condition evaluation unchanged
+[INFO]2024-05-20 15:04:33,418 - Restarting due to 3 class path changes (0 additions, 2 deletions, 1 modification)
+[INFO]2024-05-20 15:04:33,771 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:33,772 - Stopping service [Tomcat]
+[INFO]2024-05-20 15:04:33,775 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:33,777 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:33,898 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:04:33,898 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:04:34,049 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:04:34,049 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:04:34,056 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:04:34,156 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:04:34,157 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:34,157 - Starting service [Tomcat]
+[INFO]2024-05-20 15:04:34,157 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:04:34,175 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:04:34,175 - Root WebApplicationContext: initialization completed in 273 ms
+[WARN]2024-05-20 15:04:34,266 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3796a857]
+[INFO]2024-05-20 15:04:34,267 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:04:34,277 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3796a857]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3796a857]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/test/springboot/dao/UserDao;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.test.springboot.dao.UserDao
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 30 common frames omitted
+[INFO]2024-05-20 15:04:36,752 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:04:36,753 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:04:36,894 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:04:36,894 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:04:36,902 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:04:36,980 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:04:36,980 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:36,980 - Starting service [Tomcat]
+[INFO]2024-05-20 15:04:36,980 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:04:37,002 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:04:37,002 - Root WebApplicationContext: initialization completed in 248 ms
+[INFO]2024-05-20 15:04:37,110 - 自定义Redis配置--
+[WARN]2024-05-20 15:04:37,200 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 15:04:37,259 - LiveReload server is running on port 35729
+[INFO]2024-05-20 15:04:37,266 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:37,268 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 15:04:37,276 - Started SpringbootApplication in 0.542 seconds (JVM running for 1278.419)
+[INFO]2024-05-20 15:04:37,277 - Condition evaluation unchanged
+[INFO]2024-05-20 15:04:49,966 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO]2024-05-20 15:04:50,294 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:50,294 - Stopping service [Tomcat]
+[INFO]2024-05-20 15:04:50,297 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:50,298 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:50,439 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:04:50,439 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:04:50,613 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:04:50,613 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:04:50,620 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:04:50,679 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:04:50,679 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:50,679 - Starting service [Tomcat]
+[INFO]2024-05-20 15:04:50,679 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:04:50,698 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:04:50,698 - Root WebApplicationContext: initialization completed in 257 ms
+[INFO]2024-05-20 15:04:50,794 - 自定义Redis配置--
+[WARN]2024-05-20 15:04:50,860 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 15:04:50,899 - LiveReload server is running on port 35729
+[INFO]2024-05-20 15:04:50,906 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:04:50,908 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 15:04:50,914 - Started SpringbootApplication in 0.507 seconds (JVM running for 1292.057)
+[INFO]2024-05-20 15:04:50,916 - Condition evaluation unchanged
+[INFO]2024-05-20 15:05:29,216 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO]2024-05-20 15:05:29,551 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:05:29,551 - Stopping service [Tomcat]
+[INFO]2024-05-20 15:05:29,555 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:05:29,556 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:05:29,687 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:05:29,688 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:05:29,937 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:05:29,937 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:05:29,944 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:05:30,045 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:05:30,046 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:05:30,046 - Starting service [Tomcat]
+[INFO]2024-05-20 15:05:30,046 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:05:30,067 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:05:30,067 - Root WebApplicationContext: initialization completed in 378 ms
+[INFO]2024-05-20 15:05:30,162 - 自定义Redis配置--
+[WARN]2024-05-20 15:05:30,273 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 15:05:30,328 - LiveReload server is running on port 35729
+[INFO]2024-05-20 15:05:30,338 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:05:30,340 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 15:05:30,353 - Started SpringbootApplication in 0.687 seconds (JVM running for 1331.497)
+[INFO]2024-05-20 15:05:30,356 - Condition evaluation unchanged
+[INFO]2024-05-20 15:06:12,690 - Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+[INFO]2024-05-20 15:06:13,020 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:06:13,020 - Stopping service [Tomcat]
+[INFO]2024-05-20 15:06:13,023 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:06:13,025 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:06:13,134 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:06:13,135 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:06:13,287 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:06:13,287 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:06:13,295 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:06:13,393 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:06:13,394 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:06:13,394 - Starting service [Tomcat]
+[INFO]2024-05-20 15:06:13,394 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:06:13,412 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:06:13,412 - Root WebApplicationContext: initialization completed in 276 ms
+[WARN]2024-05-20 15:06:13,485 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ede7d9e]
+[INFO]2024-05-20 15:06:13,486 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:06:13,495 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ede7d9e]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\service\impl\UserServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ede7d9e]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.service.impl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ede7d9e]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 34 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/test/springboot/dao/UserDao;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.test.springboot.dao.UserDao
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 44 common frames omitted
+[INFO]2024-05-20 15:06:15,994 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:06:15,994 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:06:16,187 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:06:16,187 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:06:16,194 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:06:16,261 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:06:16,261 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:06:16,261 - Starting service [Tomcat]
+[INFO]2024-05-20 15:06:16,261 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:06:16,279 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:06:16,279 - Root WebApplicationContext: initialization completed in 282 ms
+[INFO]2024-05-20 15:06:16,379 - 自定义Redis配置--
+[WARN]2024-05-20 15:06:16,448 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 15:06:16,484 - LiveReload server is running on port 35729
+[INFO]2024-05-20 15:06:16,491 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:06:16,493 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 15:06:16,499 - Started SpringbootApplication in 0.536 seconds (JVM running for 1377.642)
+[INFO]2024-05-20 15:06:16,500 - Condition evaluation unchanged
+[INFO]2024-05-20 15:07:00,828 - Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+[INFO]2024-05-20 15:07:01,460 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:01,460 - Stopping service [Tomcat]
+[INFO]2024-05-20 15:07:01,466 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:01,468 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:01,611 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:07:01,612 - No active profile set, falling back to 1 default profile: "default"
+[WARN]2024-05-20 15:07:01,685 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.test.springboot.SpringbootApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/test/springboot/service/UserService.class] cannot be opened because it does not exist
+[ERROR]2024-05-20 15:07:01,690 - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.test.springboot.SpringbootApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/test/springboot/service/UserService.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [com/test/springboot/service/UserService.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getInterfaces(ConfigurationClassParser.java:1024)
+	at org.springframework.context.annotation.ConfigurationClassParser.processInterfaces(ConfigurationClassParser.java:385)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:331)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 18 common frames omitted
+[INFO]2024-05-20 15:07:05,193 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:07:05,193 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:07:05,357 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:07:05,357 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:07:05,363 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:07:05,467 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:07:05,468 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:05,468 - Starting service [Tomcat]
+[INFO]2024-05-20 15:07:05,468 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:07:05,486 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:07:05,487 - Root WebApplicationContext: initialization completed in 292 ms
+[WARN]2024-05-20 15:07:05,572 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.test.springboot.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[INFO]2024-05-20 15:07:05,573 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:07:05,588 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.test.springboot.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.test.springboot.service.UserService' in your configuration.
+
+[INFO]2024-05-20 15:07:08,050 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:07:08,050 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:07:08,199 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:07:08,199 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:07:08,205 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:07:08,267 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:07:08,268 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:08,268 - Starting service [Tomcat]
+[INFO]2024-05-20 15:07:08,268 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:07:08,288 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:07:08,288 - Root WebApplicationContext: initialization completed in 237 ms
+[WARN]2024-05-20 15:07:08,378 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\controller\UserController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6b4b51f8]
+[INFO]2024-05-20 15:07:08,378 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:07:08,386 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\controller\UserController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6b4b51f8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6b4b51f8]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/test/springboot/service/UserService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.test.springboot.service.UserService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 30 common frames omitted
+[INFO]2024-05-20 15:07:10,903 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:07:10,903 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:07:11,093 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:07:11,093 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:07:11,101 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:07:11,162 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:07:11,162 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:11,162 - Starting service [Tomcat]
+[INFO]2024-05-20 15:07:11,162 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:07:11,182 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:07:11,182 - Root WebApplicationContext: initialization completed in 277 ms
+[WARN]2024-05-20 15:07:11,262 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.test.springboot.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[INFO]2024-05-20 15:07:11,262 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:07:11,272 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.test.springboot.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.test.springboot.service.UserService' in your configuration.
+
+[INFO]2024-05-20 15:07:12,727 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24948 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 15:07:12,727 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 15:07:12,868 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 15:07:12,868 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 15:07:12,874 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 15:07:12,931 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 15:07:12,932 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 15:07:12,932 - Starting service [Tomcat]
+[INFO]2024-05-20 15:07:12,932 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 15:07:12,990 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 15:07:12,990 - Root WebApplicationContext: initialization completed in 261 ms
+[WARN]2024-05-20 15:07:13,083 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\controller\UserController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3af4d041]
+[INFO]2024-05-20 15:07:13,083 - Stopping service [Tomcat]
+[ERROR]2024-05-20 15:07:13,093 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\controller\UserController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3af4d041]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3af4d041]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/test/springboot/service/UserService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.test.springboot.service.UserService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 30 common frames omitted
+[INFO]2024-05-20 16:28:01,201 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 33704 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 16:28:01,201 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 16:28:01,236 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 16:28:01,236 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 16:28:01,745 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 16:28:01,747 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 16:28:01,769 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 16:28:02,242 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 16:28:02,248 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 16:28:02,248 - Starting service [Tomcat]
+[INFO]2024-05-20 16:28:02,248 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 16:28:02,326 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 16:28:02,326 - Root WebApplicationContext: initialization completed in 1089 ms
+[INFO]2024-05-20 16:28:02,842 - 自定义Redis配置--
+[WARN]2024-05-20 16:28:03,068 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 16:28:03,205 - LiveReload server is running on port 35729
+[INFO]2024-05-20 16:28:03,219 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 16:28:03,232 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 16:28:03,247 - Started SpringbootApplication in 2.368 seconds (JVM running for 3.267)
+[INFO]2024-05-20 16:32:06,006 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 16:32:06,006 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 16:32:06,007 - Completed initialization in 1 ms
+[INFO]2024-05-20 16:32:06,128 - HikariPool-1 - Starting...
+[INFO]2024-05-20 16:32:06,244 - HikariPool-1 - Start completed.
+[INFO]2024-05-20 16:50:19,140 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 34984 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 16:50:19,141 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 16:50:19,185 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 16:50:19,185 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 16:50:19,774 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 16:50:19,776 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 16:50:19,801 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 16:50:20,400 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 16:50:20,407 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 16:50:20,407 - Starting service [Tomcat]
+[INFO]2024-05-20 16:50:20,407 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 16:50:20,494 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 16:50:20,494 - Root WebApplicationContext: initialization completed in 1309 ms
+[INFO]2024-05-20 16:50:21,108 - 自定义Redis配置--
+[WARN]2024-05-20 16:50:21,340 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 16:50:21,484 - LiveReload server is running on port 35729
+[INFO]2024-05-20 16:50:21,501 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 16:50:21,515 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 16:50:21,528 - Started SpringbootApplication in 2.75 seconds (JVM running for 3.676)
+[INFO]2024-05-20 16:51:12,614 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 16:51:12,614 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 16:51:12,615 - Completed initialization in 1 ms
+[INFO]2024-05-20 16:51:12,713 - HikariPool-1 - Starting...
+[INFO]2024-05-20 16:51:12,800 - HikariPool-1 - Start completed.
+[WARN]2024-05-20 16:55:36,736 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "UpdateInfo"]
+[INFO]2024-05-20 17:13:21,088 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 36644 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 17:13:21,088 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 17:13:21,127 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 17:13:21,127 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 17:13:21,689 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 17:13:21,691 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 17:13:21,714 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 17:13:22,269 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 17:13:22,275 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 17:13:22,275 - Starting service [Tomcat]
+[INFO]2024-05-20 17:13:22,275 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 17:13:22,358 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 17:13:22,358 - Root WebApplicationContext: initialization completed in 1231 ms
+[INFO]2024-05-20 17:13:22,952 - 自定义Redis配置--
+[WARN]2024-05-20 17:13:23,183 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 17:13:23,342 - LiveReload server is running on port 35729
+[INFO]2024-05-20 17:13:23,362 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 17:13:23,378 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 17:13:23,395 - Started SpringbootApplication in 2.713 seconds (JVM running for 3.723)
+[INFO]2024-05-20 17:15:33,292 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 17:15:33,292 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 17:15:33,293 - Completed initialization in 1 ms
+[INFO]2024-05-20 17:15:33,378 - HikariPool-1 - Starting...
+[INFO]2024-05-20 17:15:33,463 - HikariPool-1 - Start completed.
+[INFO]2024-05-20 17:29:36,448 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 37132 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 17:29:36,449 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 17:29:36,485 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 17:29:36,485 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 17:29:36,976 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 17:29:36,978 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 17:29:37,000 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 17:29:37,484 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 17:29:37,491 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 17:29:37,492 - Starting service [Tomcat]
+[INFO]2024-05-20 17:29:37,492 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 17:29:37,564 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 17:29:37,564 - Root WebApplicationContext: initialization completed in 1079 ms
+[INFO]2024-05-20 17:29:38,128 - 自定义Redis配置--
+[WARN]2024-05-20 17:29:38,407 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 17:29:38,604 - LiveReload server is running on port 35729
+[INFO]2024-05-20 17:29:38,624 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 17:29:38,638 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 17:29:38,655 - Started SpringbootApplication in 2.547 seconds (JVM running for 3.485)
+[INFO]2024-05-20 17:30:09,577 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 17:30:09,577 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 17:30:09,579 - Completed initialization in 2 ms
+[INFO]2024-05-20 17:30:09,665 - HikariPool-1 - Starting...
+[INFO]2024-05-20 17:30:09,788 - HikariPool-1 - Start completed.
+[INFO]2024-05-20 19:38:41,719 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 15684 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:38:41,719 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:38:41,766 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 19:38:41,766 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 19:38:42,507 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:38:42,510 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:38:42,544 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:38:43,292 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:38:43,300 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:38:43,300 - Starting service [Tomcat]
+[INFO]2024-05-20 19:38:43,300 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:38:43,399 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:38:43,399 - Root WebApplicationContext: initialization completed in 1632 ms
+[INFO]2024-05-20 19:38:44,107 - 自定义Redis配置--
+[WARN]2024-05-20 19:38:44,393 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:38:44,557 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:38:44,574 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:38:44,596 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:38:44,615 - Started SpringbootApplication in 3.408 seconds (JVM running for 4.715)
+[INFO]2024-05-20 19:40:28,489 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:40:28,489 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 19:40:28,490 - Completed initialization in 1 ms
+[INFO]2024-05-20 19:40:28,605 - HikariPool-1 - Starting...
+[INFO]2024-05-20 19:40:28,729 - HikariPool-1 - Start completed.
+[WARN]2024-05-20 19:41:01,553 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[WARN]2024-05-20 19:41:13,038 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[WARN]2024-05-20 19:42:00,879 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[WARN]2024-05-20 19:42:01,189 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[WARN]2024-05-20 19:42:39,137 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[WARN]2024-05-20 19:43:34,613 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[INFO]2024-05-20 19:43:35,456 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-20 19:43:35,828 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:35,828 - Stopping service [Tomcat]
+[INFO]2024-05-20 19:43:35,829 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-05-20 19:43:35,832 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-05-20 19:43:35,833 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:35,834 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:35,851 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-05-20 19:43:35,857 - HikariPool-1 - Shutdown completed.
+[INFO]2024-05-20 19:43:35,990 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 15684 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:43:35,990 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:43:36,246 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:43:36,246 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:43:36,254 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:43:36,386 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:43:36,387 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:36,387 - Starting service [Tomcat]
+[INFO]2024-05-20 19:43:36,387 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:43:36,422 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:43:36,422 - Root WebApplicationContext: initialization completed in 430 ms
+[INFO]2024-05-20 19:43:36,602 - 自定义Redis配置--
+[WARN]2024-05-20 19:43:36,738 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:43:36,819 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:43:36,832 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:36,835 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:43:36,846 - Started SpringbootApplication in 0.882 seconds (JVM running for 296.944)
+[INFO]2024-05-20 19:43:36,849 - Condition evaluation unchanged
+[INFO]2024-05-20 19:43:39,287 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-05-20 19:43:39,586 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:39,586 - Stopping service [Tomcat]
+[INFO]2024-05-20 19:43:39,589 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:39,591 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:39,704 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 15684 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:43:39,704 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:43:39,852 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:43:39,852 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:43:39,859 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:43:39,928 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:43:39,928 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:39,928 - Starting service [Tomcat]
+[INFO]2024-05-20 19:43:39,928 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:43:39,949 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:43:39,950 - Root WebApplicationContext: initialization completed in 245 ms
+[INFO]2024-05-20 19:43:40,051 - 自定义Redis配置--
+[WARN]2024-05-20 19:43:40,140 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:43:40,189 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:43:40,196 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:43:40,202 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:43:40,209 - Started SpringbootApplication in 0.522 seconds (JVM running for 300.308)
+[INFO]2024-05-20 19:43:40,210 - Condition evaluation unchanged
+[INFO]2024-05-20 19:43:54,090 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:43:54,091 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 19:43:54,092 - Completed initialization in 1 ms
+[WARN]2024-05-20 19:43:54,101 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[WARN]2024-05-20 19:45:25,647 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[INFO]2024-05-20 19:45:44,352 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24792 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:45:44,352 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:45:44,391 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 19:45:44,391 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 19:45:44,895 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:45:44,896 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:45:44,918 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:45:45,415 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:45:45,422 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:45:45,422 - Starting service [Tomcat]
+[INFO]2024-05-20 19:45:45,422 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:45:45,502 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:45:45,502 - Root WebApplicationContext: initialization completed in 1110 ms
+[INFO]2024-05-20 19:45:46,060 - 自定义Redis配置--
+[WARN]2024-05-20 19:45:46,317 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:45:46,463 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:45:46,481 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:45:46,495 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:45:46,511 - Started SpringbootApplication in 2.506 seconds (JVM running for 3.745)
+[INFO]2024-05-20 19:45:51,951 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:45:51,951 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 19:45:51,952 - Completed initialization in 1 ms
+[WARN]2024-05-20 19:45:52,037 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[INFO]2024-05-20 19:46:44,129 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-20 19:46:44,433 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:44,433 - Stopping service [Tomcat]
+[INFO]2024-05-20 19:46:44,434 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:46:44,436 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:44,446 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:44,586 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24792 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:46:44,586 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:46:44,756 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:46:44,756 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:46:44,763 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:46:44,873 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:46:44,874 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:44,874 - Starting service [Tomcat]
+[INFO]2024-05-20 19:46:44,874 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:46:44,898 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:46:44,898 - Root WebApplicationContext: initialization completed in 310 ms
+[INFO]2024-05-20 19:46:45,029 - 自定义Redis配置--
+[WARN]2024-05-20 19:46:45,114 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:46:45,178 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:46:45,194 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:45,197 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:46:45,213 - Started SpringbootApplication in 0.648 seconds (JVM running for 62.447)
+[INFO]2024-05-20 19:46:45,216 - Condition evaluation unchanged
+[INFO]2024-05-20 19:46:46,617 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-05-20 19:46:46,992 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:46,992 - Stopping service [Tomcat]
+[INFO]2024-05-20 19:46:46,995 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:47,003 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:47,167 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 24792 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:46:47,168 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:46:47,387 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:46:47,388 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:46:47,399 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:46:47,493 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:46:47,494 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:47,494 - Starting service [Tomcat]
+[INFO]2024-05-20 19:46:47,494 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:46:47,516 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:46:47,516 - Root WebApplicationContext: initialization completed in 346 ms
+[INFO]2024-05-20 19:46:47,652 - 自定义Redis配置--
+[WARN]2024-05-20 19:46:47,725 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:46:47,765 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:46:47,772 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:46:47,774 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:46:47,782 - Started SpringbootApplication in 0.644 seconds (JVM running for 65.015)
+[INFO]2024-05-20 19:46:47,783 - Condition evaluation unchanged
+[INFO]2024-05-20 19:46:51,912 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:46:51,912 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 19:46:51,913 - Completed initialization in 1 ms
+[WARN]2024-05-20 19:46:51,922 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[INFO]2024-05-20 19:47:52,033 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 11120 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:47:52,034 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:47:52,067 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 19:47:52,067 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 19:47:52,570 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:47:52,571 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:47:52,592 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:47:53,060 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:47:53,067 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:47:53,068 - Starting service [Tomcat]
+[INFO]2024-05-20 19:47:53,068 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:47:53,165 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:47:53,166 - Root WebApplicationContext: initialization completed in 1098 ms
+[INFO]2024-05-20 19:47:53,759 - 自定义Redis配置--
+[WARN]2024-05-20 19:47:54,041 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:47:54,223 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:47:54,239 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:47:54,250 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:47:54,265 - Started SpringbootApplication in 2.551 seconds (JVM running for 3.562)
+[INFO]2024-05-20 19:48:03,640 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:48:03,640 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 19:48:03,641 - Completed initialization in 1 ms
+[WARN]2024-05-20 19:48:03,727 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2024-05-17 12:00:00": not a valid representation (error: Failed to parse Date value '2024-05-17 12:00:00': Cannot parse date "2024-05-17 12:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.test.springboot.entity.User["birthday"])]
+[INFO]2024-05-20 19:48:20,245 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-05-20 19:48:20,664 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:48:20,664 - Stopping service [Tomcat]
+[INFO]2024-05-20 19:48:20,665 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:48:20,667 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:48:20,676 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:48:20,796 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 11120 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:48:20,797 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:48:20,983 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:48:20,983 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:48:20,990 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:48:21,111 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:48:21,112 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:48:21,112 - Starting service [Tomcat]
+[INFO]2024-05-20 19:48:21,112 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:48:21,137 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:48:21,137 - Root WebApplicationContext: initialization completed in 339 ms
+[WARN]2024-05-20 19:48:21,220 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+[INFO]2024-05-20 19:48:21,221 - Stopping service [Tomcat]
+[ERROR]2024-05-20 19:48:21,252 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compStaffService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compStaffDao' defined in file [D:\Java\xiaoqi1\target\classes\com\test\springboot\dao\CompStaffDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c46e6e.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c46e6e$$FastClassBySpringCGLIB$$fe9b0848.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1c46e6e.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Java\xiaoqi1\target\classes\mapper\UserDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.test.springboot.entity.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.test.springboot.entity.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2024-05-20 19:48:24,781 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 11120 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:48:24,781 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:48:24,978 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:48:24,978 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:48:24,985 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:48:25,114 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:48:25,115 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:48:25,115 - Starting service [Tomcat]
+[INFO]2024-05-20 19:48:25,115 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:48:25,148 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:48:25,148 - Root WebApplicationContext: initialization completed in 365 ms
+[INFO]2024-05-20 19:48:25,401 - 自定义Redis配置--
+[WARN]2024-05-20 19:48:25,481 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:48:25,520 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:48:25,527 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:48:25,529 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:48:25,536 - Started SpringbootApplication in 0.777 seconds (JVM running for 34.833)
+[INFO]2024-05-20 19:48:25,537 - Condition evaluation unchanged
+[INFO]2024-05-20 19:49:24,439 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 37132 (D:\Java\xiaoqi1\target\classes started by luoshiwqng in D:\Java\xiaoqi1)
+[INFO]2024-05-20 19:49:24,440 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-05-20 19:49:24,479 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-05-20 19:49:24,480 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-05-20 19:49:24,986 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-05-20 19:49:24,988 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-05-20 19:49:25,007 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[INFO]2024-05-20 19:49:25,636 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-05-20 19:49:25,647 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:49:25,648 - Starting service [Tomcat]
+[INFO]2024-05-20 19:49:25,648 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-05-20 19:49:25,774 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-05-20 19:49:25,775 - Root WebApplicationContext: initialization completed in 1295 ms
+[INFO]2024-05-20 19:49:26,405 - 自定义Redis配置--
+[WARN]2024-05-20 19:49:26,697 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-05-20 19:49:26,857 - LiveReload server is running on port 35729
+[INFO]2024-05-20 19:49:26,872 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-05-20 19:49:26,885 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-05-20 19:49:26,901 - Started SpringbootApplication in 2.831 seconds (JVM running for 3.883)
+[INFO]2024-05-20 19:49:31,819 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-05-20 19:49:31,819 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-05-20 19:49:31,820 - Completed initialization in 1 ms
+[INFO]2024-05-20 19:49:31,913 - HikariPool-1 - Starting...
+[INFO]2024-05-20 19:49:32,013 - HikariPool-1 - Start completed.

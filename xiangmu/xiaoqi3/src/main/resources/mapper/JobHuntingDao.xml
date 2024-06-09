@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.JobHuntingDao">
+
+    <resultMap type="com.test.springboot.entity.JobHunting" id="JobHuntingMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="resuId" column="resu_id" jdbcType="INTEGER"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="compId1" column="description" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="JobHuntingMap">
+        select
+          id, user_id, resu_id, description,comp_id
+        from job_hunting
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="JobHuntingMap">
+        select
+          id, user_id, resu_id, description
+        from job_hunting
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="resuId != null">
+                and resu_id = #{resuId}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from job_hunting
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="resuId != null">
+                and resu_id = #{resuId}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into job_hunting(user_id, resu_id, description,comp_id)
+        values (#{userId}, #{resuId}, #{description},#{compId1})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into job_hunting(user_id, resu_id, description)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.userId}, #{entity.resuId}, #{entity.description})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into job_hunting(user_id, resu_id, description)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.userId}, #{entity.resuId}, #{entity.description})
+        </foreach>
+        on duplicate key update
+        user_id = values(user_id),
+        resu_id = values(resu_id),
+        description = values(description)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update job_hunting
+        <set>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="resuId != null">
+                resu_id = #{resuId},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="compId1 != null">
+            comp_id = #{compId1},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from job_hunting where id = #{id}
+    </delete>
+
+
+    <select id="getcount" resultMap="JobHuntingMap">
+        select * from job_hunting
+    </select>
+
+
+
+    <select id="getcount1" resultMap="JobHuntingMap">
+        select  * from job_hunting
+        WHERE   job_hunting.description like concat('%',#{desc},'%')
+
+    </select>
+
+    <select id="getalljob" resultType="com.test.springboot.vo.JobHuntingVo">
+        SELECT user.username nickname ,job_hunting.description FROM user,job_hunting
+        WHERE   job_hunting.user_id=user.id
+
+    </select>
+
+    <select id="getjob" resultType="com.test.springboot.vo.JobHuntingVo">
+        SELECT user.username nickname ,job_hunting.description FROM user,job_hunting
+        WHERE   job_hunting.user_id=user.id and job_hunting.description like concat('%',#{desc},'%')
+    </select>
+
+    <select id="queryByCompanyId" resultType="com.test.springboot.vo.CompanyResumeVo">
+        select
+            nickname, phone, user.id user_id, job_hunting.id id,resume.description description, job_hunting.comp_id comp_id
+        from
+            user, job_hunting, resume
+        where
+            job_hunting.comp_id = #{id} and  job_hunting.user_id = user.id and job_hunting.resu_id = resume.id
+    </select>
+
+    <select id="searchhot" resultType="java.lang.Object">
+
+        select hot from  job_hunting ,company where job_hunting.comp_id = company.id and company.id = #{id} and job_hunting.id=#{id1}
+    </select>
+
+    <update id="updatehot">
+        update company,job_hunting set company.hot = 0 where company.id = #{compId1} and job_hunting.comp_id = company.id
+    </update>
+
+    <update id="updatehot1">
+        update company,job_hunting set company.hot = company.hot+1 where company.id = #{compId1} and job_hunting.comp_id = company.id
+    </update>
+</mapper>
+

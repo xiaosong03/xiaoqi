@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.springboot.dao.InstitutionDao">
+
+    <resultMap type="com.test.springboot.entity.Institution" id="InstitutionMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="registrant" column="registrant" jdbcType="INTEGER"/>
+        <result property="lastNum" column="last_num" jdbcType="INTEGER"/>
+        <result property="manager" column="manager" jdbcType="INTEGER"/>
+        <result property="manager" column="hot" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InstitutionMap">
+        select
+          id, name, description, registrant, last_num, manager,hot
+        from institution
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InstitutionMap">
+        select
+          id, name, description, registrant, last_num, manager
+        from institution
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="registrant != null">
+                and registrant = #{registrant}
+            </if>
+            <if test="lastNum != null">
+                and last_num = #{lastNum}
+            </if>
+            <if test="manager != null">
+                and manager = #{manager}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from institution
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+            <if test="registrant != null">
+                and registrant = #{registrant}
+            </if>
+            <if test="lastNum != null">
+                and last_num = #{lastNum}
+            </if>
+            <if test="manager != null">
+                and manager = #{manager}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into institution(name, description, registrant, last_num, manager,hot)
+        values (#{name}, #{description}, #{registrant}, #{lastNum}, #{manager},0)
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into institution(name, description, registrant, last_num, manager)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.name}, #{entity.description}, #{entity.registrant}, #{entity.lastNum}, #{entity.manager})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into institution(name, description, registrant, last_num, manager)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.name}, #{entity.description}, #{entity.registrant}, #{entity.lastNum}, #{entity.manager})
+        </foreach>
+        on duplicate key update
+        name = values(name),
+        description = values(description),
+        registrant = values(registrant),
+        last_num = values(last_num),
+        manager = values(manager)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update institution
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="registrant != null">
+                registrant = #{registrant},
+            </if>
+            <if test="lastNum != null">
+                last_num = #{lastNum},
+            </if>
+            <if test="manager != null">
+                manager = #{manager},
+            </if>
+            <if test="hot != null">
+                hot = #{hot},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from institution where id = #{id}
+    </delete>
+
+
+    <select id="getcount" resultMap="InstitutionMap">
+        select * from institution
+    </select>
+
+
+
+    <select id="getcount1" resultMap="InstitutionMap">
+        select  * from institution where name= #{name} and name like concat('%', #{name}, '%')
+    </select>
+
+
+
+    <select id="queryByRegistrantId" resultMap="InstitutionMap">
+        select
+            *
+        from
+            institution
+        where
+            registrant = #{id}
+    </select>
+
+    <select id="getallinstitution" resultType="com.test.springboot.vo.InstitutionVo">
+        SELECT hao.id, hao.description,hao.hot,hao.manager1,hao.`name`,user.username registername
+        FROM(select institution.id, institution.name, institution.description, institution.registrant, user.username  manager1,institution.hot
+            from institution, user
+             where institution.manager = user.id)AS hao,`user` where hao.registrant = `user`.id;
+    </select>
+
+    <select id="getinstitution" resultType="com.test.springboot.vo.InstitutionVo">
+        SELECT hao.id, hao.description,hao.hot,hao.manager1,hao.`name`,user.username registername
+        FROM(select institution.id, institution.name, institution.description, institution.registrant, user.username  manager1,institution.hot
+             from institution, user
+             where institution.manager = user.id)AS hao,`user` where hao.registrant = `user`.id and name like concat('%', #{name}, '%');
+    </select>
+
+    <select id="search" resultType="com.test.springboot.vo.InstitutionVo">
+        select institution.id, institution.name, institution.description, user.username registrant1
+        from institution, user
+        where institution.id = #{id} and institution.registrant = user.id;
+    </select>
+
+    <select id="search1" resultType="java.lang.String">
+        select user.username manager from user, institution
+        where institution.id =#{id} and institution.manager = user.id;
+    </select>
+
+
+
+    <select id="searchhot" resultType="java.lang.Object">
+        select hot from institution where id=#{id}
+    </select>
+
+    <update id="updatehot">
+        update institution set hot = hot+1 where id=#{id}
+    </update>
+
+    <update id="updatehot1">
+        update institution set hot = 0 where id=#{id}
+    </update>
+</mapper>
+

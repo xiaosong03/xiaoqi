@@ -1,0 +1,719 @@
+[INFO]2024-06-07 08:57:04,930 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 57312 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 08:57:04,931 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 08:57:04,986 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 08:57:04,987 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 08:57:06,104 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 08:57:06,107 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 08:57:06,144 - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 08:57:06,778 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 08:57:06,786 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 08:57:06,787 - Starting service [Tomcat]
+[INFO]2024-06-07 08:57:06,787 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 08:57:06,877 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 08:57:06,877 - Root WebApplicationContext: initialization completed in 1889 ms
+[INFO]2024-06-07 08:57:07,538 - 自定义Redis配置--
+[WARN]2024-06-07 08:57:07,792 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 08:57:07,963 - LiveReload server is running on port 35729
+[INFO]2024-06-07 08:57:07,978 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 08:57:07,999 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 08:57:08,020 - Started SpringbootApplication in 3.584 seconds (JVM running for 4.816)
+[INFO]2024-06-07 08:58:10,420 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 08:58:10,420 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 08:58:10,421 - Completed initialization in 1 ms
+[INFO]2024-06-07 08:58:10,466 - HikariPool-1 - Starting...
+[INFO]2024-06-07 08:58:10,598 - HikariPool-1 - Start completed.
+[INFO]2024-06-07 09:40:19,969 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 72820 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 09:40:19,969 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 09:40:20,008 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 09:40:20,009 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 09:40:20,554 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 09:40:20,556 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 09:40:20,580 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 09:40:21,173 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 09:40:21,179 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 09:40:21,180 - Starting service [Tomcat]
+[INFO]2024-06-07 09:40:21,180 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 09:40:21,373 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 09:40:21,374 - Root WebApplicationContext: initialization completed in 1365 ms
+[INFO]2024-06-07 09:40:22,220 - 自定义Redis配置--
+[WARN]2024-06-07 09:40:22,460 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 09:40:22,608 - LiveReload server is running on port 35729
+[INFO]2024-06-07 09:40:22,622 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 09:40:22,649 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 09:40:22,674 - Started SpringbootApplication in 3.089 seconds (JVM running for 4.286)
+[INFO]2024-06-07 09:40:25,047 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 09:40:25,047 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 09:40:25,048 - Completed initialization in 1 ms
+[INFO]2024-06-07 09:40:25,154 - HikariPool-1 - Starting...
+[INFO]2024-06-07 09:40:25,252 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 10:09:24,788 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-07 10:13:37,525 - Resolved [java.lang.NullPointerException]
+[INFO]2024-06-07 10:20:15,967 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 10:20:15,971 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 10:20:22,440 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 78940 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:20:22,440 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:20:22,477 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 10:20:22,477 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 10:20:23,025 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:20:23,027 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:20:23,049 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:20:23,786 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:20:23,795 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:20:23,796 - Starting service [Tomcat]
+[INFO]2024-06-07 10:20:23,796 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:20:23,892 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:20:23,892 - Root WebApplicationContext: initialization completed in 1414 ms
+[INFO]2024-06-07 10:20:24,614 - 自定义Redis配置--
+[WARN]2024-06-07 10:20:24,914 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:20:25,071 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:20:25,095 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:20:25,115 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:20:25,135 - Started SpringbootApplication in 3.084 seconds (JVM running for 4.025)
+[INFO]2024-06-07 10:20:28,282 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 10:20:28,282 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 10:20:28,283 - Completed initialization in 1 ms
+[INFO]2024-06-07 10:20:28,328 - HikariPool-1 - Starting...
+[INFO]2024-06-07 10:20:28,468 - HikariPool-1 - Start completed.
+[INFO]2024-06-07 10:20:45,512 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 10:20:45,518 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 10:20:51,517 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:20:51,518 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:20:51,552 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 10:20:51,552 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 10:20:52,069 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:20:52,071 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:20:52,094 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:20:52,593 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:20:52,599 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:20:52,600 - Starting service [Tomcat]
+[INFO]2024-06-07 10:20:52,600 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:20:52,681 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:20:52,681 - Root WebApplicationContext: initialization completed in 1129 ms
+[INFO]2024-06-07 10:20:53,542 - 自定义Redis配置--
+[WARN]2024-06-07 10:20:53,865 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:20:54,053 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:20:54,077 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:20:54,096 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:20:54,118 - Started SpringbootApplication in 2.95 seconds (JVM running for 3.917)
+[INFO]2024-06-07 10:20:56,810 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 10:20:56,810 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 10:20:56,813 - Completed initialization in 3 ms
+[INFO]2024-06-07 10:20:56,873 - HikariPool-1 - Starting...
+[INFO]2024-06-07 10:20:57,012 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 10:43:33,932 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[WARN]2024-06-07 10:43:37,014 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[WARN]2024-06-07 10:43:50,343 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[WARN]2024-06-07 10:43:58,341 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[WARN]2024-06-07 10:44:07,195 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[INFO]2024-06-07 10:45:40,061 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-07 10:45:40,430 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:40,430 - Stopping service [Tomcat]
+[INFO]2024-06-07 10:45:40,431 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-07 10:45:40,435 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-07 10:45:40,436 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:40,438 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:40,461 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 10:45:40,469 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 10:45:40,633 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:45:40,633 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:45:40,964 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:45:40,965 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:45:40,972 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:45:41,102 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:45:41,102 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:41,103 - Starting service [Tomcat]
+[INFO]2024-06-07 10:45:41,103 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:45:41,124 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:45:41,124 - Root WebApplicationContext: initialization completed in 488 ms
+[INFO]2024-06-07 10:45:41,319 - 自定义Redis配置--
+[WARN]2024-06-07 10:45:41,398 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:45:41,444 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:45:41,453 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:41,455 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:45:41,461 - Started SpringbootApplication in 0.866 seconds (JVM running for 1491.26)
+[INFO]2024-06-07 10:45:41,463 - Condition evaluation unchanged
+[INFO]2024-06-07 10:45:43,909 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-06-07 10:45:44,166 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:44,166 - Stopping service [Tomcat]
+[INFO]2024-06-07 10:45:44,170 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:44,172 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:44,293 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:45:44,293 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:45:44,445 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:45:44,445 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:45:44,453 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:45:44,513 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:45:44,513 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:44,513 - Starting service [Tomcat]
+[INFO]2024-06-07 10:45:44,513 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:45:44,531 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:45:44,531 - Root WebApplicationContext: initialization completed in 236 ms
+[INFO]2024-06-07 10:45:44,651 - 自定义Redis配置--
+[WARN]2024-06-07 10:45:44,729 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:45:44,768 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:45:44,774 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:44,776 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:45:44,782 - Started SpringbootApplication in 0.508 seconds (JVM running for 1494.581)
+[INFO]2024-06-07 10:45:44,783 - Condition evaluation unchanged
+[INFO]2024-06-07 10:45:55,439 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-07 10:45:55,784 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:55,784 - Stopping service [Tomcat]
+[INFO]2024-06-07 10:45:55,786 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:55,788 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:55,923 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:45:55,923 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:45:56,096 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:45:56,096 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:45:56,103 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:45:56,164 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:45:56,164 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:56,164 - Starting service [Tomcat]
+[INFO]2024-06-07 10:45:56,164 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:45:56,182 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:45:56,183 - Root WebApplicationContext: initialization completed in 257 ms
+[INFO]2024-06-07 10:45:56,305 - 自定义Redis配置--
+[WARN]2024-06-07 10:45:56,406 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:45:56,464 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:45:56,473 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:56,474 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:45:56,482 - Started SpringbootApplication in 0.581 seconds (JVM running for 1506.281)
+[INFO]2024-06-07 10:45:56,483 - Condition evaluation unchanged
+[INFO]2024-06-07 10:45:58,945 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-06-07 10:45:59,199 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:59,199 - Stopping service [Tomcat]
+[INFO]2024-06-07 10:45:59,202 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:59,204 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:59,287 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:45:59,287 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:45:59,434 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:45:59,434 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:45:59,441 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:45:59,501 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:45:59,501 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:59,501 - Starting service [Tomcat]
+[INFO]2024-06-07 10:45:59,502 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:45:59,519 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:45:59,519 - Root WebApplicationContext: initialization completed in 230 ms
+[INFO]2024-06-07 10:45:59,619 - 自定义Redis配置--
+[WARN]2024-06-07 10:45:59,689 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:45:59,732 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:45:59,739 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:45:59,747 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:45:59,753 - Started SpringbootApplication in 0.483 seconds (JVM running for 1509.551)
+[INFO]2024-06-07 10:45:59,753 - Condition evaluation unchanged
+[INFO]2024-06-07 10:49:20,822 - Restarting due to 5 class path changes (0 additions, 4 deletions, 1 modification)
+[INFO]2024-06-07 10:49:21,111 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:49:21,111 - Stopping service [Tomcat]
+[INFO]2024-06-07 10:49:21,114 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:49:21,116 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:49:21,216 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:49:21,216 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:49:21,418 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:49:21,419 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:49:21,427 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:49:21,534 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:49:21,534 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:49:21,534 - Starting service [Tomcat]
+[INFO]2024-06-07 10:49:21,534 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:49:21,552 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:49:21,553 - Root WebApplicationContext: initialization completed in 335 ms
+[WARN]2024-06-07 10:49:21,645 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cooperationController' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\controller\CooperationController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.CooperationController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d6709b1]
+[INFO]2024-06-07 10:49:21,646 - Stopping service [Tomcat]
+[ERROR]2024-06-07 10:49:21,679 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cooperationController' defined in file [D:\Java\xiaoqi3\target\classes\com\test\springboot\controller\CooperationController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.CooperationController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d6709b1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.test.springboot.SpringbootApplication.main(SpringbootApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.test.springboot.controller.CooperationController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d6709b1]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/test/springboot/service/CooperationService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.test.springboot.service.CooperationService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 30 common frames omitted
+[INFO]2024-06-07 10:49:24,603 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 71292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:49:24,603 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:49:24,760 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:49:24,760 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:49:24,767 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:49:24,837 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:49:24,838 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:49:24,838 - Starting service [Tomcat]
+[INFO]2024-06-07 10:49:24,838 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:49:24,857 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:49:24,857 - Root WebApplicationContext: initialization completed in 253 ms
+[INFO]2024-06-07 10:49:24,977 - 自定义Redis配置--
+[WARN]2024-06-07 10:49:25,055 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:49:25,100 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:49:25,107 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:49:25,109 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:49:25,115 - Started SpringbootApplication in 0.53 seconds (JVM running for 1714.914)
+[INFO]2024-06-07 10:49:25,116 - Condition evaluation unchanged
+[INFO]2024-06-07 10:53:48,236 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 80416 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:53:48,237 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:53:48,272 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 10:53:48,272 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 10:53:48,783 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:53:48,785 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:53:48,807 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:53:49,257 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:53:49,263 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:53:49,264 - Starting service [Tomcat]
+[INFO]2024-06-07 10:53:49,264 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:53:49,348 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:53:49,348 - Root WebApplicationContext: initialization completed in 1076 ms
+[INFO]2024-06-07 10:53:49,878 - 自定义Redis配置--
+[WARN]2024-06-07 10:53:50,122 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:53:50,273 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:53:50,289 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:53:50,303 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:53:50,322 - Started SpringbootApplication in 2.42 seconds (JVM running for 3.486)
+[INFO]2024-06-07 10:53:54,296 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 10:53:54,296 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 10:53:54,297 - Completed initialization in 1 ms
+[WARN]2024-06-07 10:53:54,402 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[WARN]2024-06-07 10:54:02,427 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[INFO]2024-06-07 10:54:08,922 - HikariPool-1 - Starting...
+[INFO]2024-06-07 10:54:09,016 - HikariPool-1 - Start completed.
+[INFO]2024-06-07 10:55:25,063 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 10:55:25,069 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 10:55:30,983 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 80492 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 10:55:30,984 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 10:55:31,019 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 10:55:31,019 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 10:55:31,509 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 10:55:31,510 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 10:55:31,532 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 10:55:32,000 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 10:55:32,006 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:55:32,007 - Starting service [Tomcat]
+[INFO]2024-06-07 10:55:32,007 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 10:55:32,087 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 10:55:32,088 - Root WebApplicationContext: initialization completed in 1069 ms
+[INFO]2024-06-07 10:55:32,704 - 自定义Redis配置--
+[WARN]2024-06-07 10:55:33,006 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 10:55:33,179 - LiveReload server is running on port 35729
+[INFO]2024-06-07 10:55:33,203 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 10:55:33,221 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 10:55:33,244 - Started SpringbootApplication in 2.611 seconds (JVM running for 3.556)
+[INFO]2024-06-07 10:55:37,711 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 10:55:37,711 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 10:55:37,713 - Completed initialization in 1 ms
+[WARN]2024-06-07 10:55:37,791 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[INFO]2024-06-07 10:55:55,501 - HikariPool-1 - Starting...
+[INFO]2024-06-07 10:55:55,594 - HikariPool-1 - Start completed.
+[INFO]2024-06-07 11:03:59,850 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 11:03:59,893 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 11:04:03,178 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 79320 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 11:04:03,179 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 11:04:03,226 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 11:04:03,226 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 11:04:03,797 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 11:04:03,799 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 11:04:03,821 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 11:04:04,332 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 11:04:04,339 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 11:04:04,339 - Starting service [Tomcat]
+[INFO]2024-06-07 11:04:04,339 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 11:04:04,428 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 11:04:04,429 - Root WebApplicationContext: initialization completed in 1202 ms
+[INFO]2024-06-07 11:04:05,149 - 自定义Redis配置--
+[WARN]2024-06-07 11:04:05,499 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 11:04:05,674 - LiveReload server is running on port 35729
+[INFO]2024-06-07 11:04:05,690 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 11:04:05,701 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 11:04:05,716 - Started SpringbootApplication in 2.96 seconds (JVM running for 3.98)
+[INFO]2024-06-07 11:04:12,593 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 11:04:12,593 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 11:04:12,595 - Completed initialization in 2 ms
+[INFO]2024-06-07 11:04:12,640 - HikariPool-1 - Starting...
+[INFO]2024-06-07 11:04:12,736 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 11:05:35,444 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-07 11:06:15,630 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-07 11:08:51,508 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-07 11:10:43,853 - Resolved [java.lang.NullPointerException]
+[WARN]2024-06-07 11:17:09,535 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into cooperation(description, training_id, inst_charge, comp_staff_id_charge, comp_staff_number_charge)         values (?, ?, ?, ?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL>; Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`)); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))]
+[WARN]2024-06-07 11:17:55,136 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into cooperation(description, training_id, inst_charge, comp_staff_id_charge, comp_staff_number_charge)         values (?, ?, ?, ?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL>; Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`)); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))]
+[WARN]2024-06-07 11:18:15,339 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into cooperation(description, training_id, inst_charge, comp_staff_id_charge, comp_staff_number_charge)         values (?, ?, ?, ?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL>; Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`)); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))]
+[WARN]2024-06-07 11:18:17,409 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL><EOL>### The error may exist in file [D:\Java\xiaoqi3\target\classes\mapper\CooperationDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into cooperation(description, training_id, inst_charge, comp_staff_id_charge, comp_staff_number_charge)         values (?, ?, ?, ?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))<EOL>; Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`)); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`comprehensive_project_practice`.`cooperation`, CONSTRAINT `cooperation_ibfk_3` FOREIGN KEY (`comp_staff_id_charge`, `comp_staff_number_charge`) REFERENCES `comp_staff` (`comp_id`, `number`))]
+[INFO]2024-06-07 11:26:07,994 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 11:26:08,003 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 11:26:14,262 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 73292 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 11:26:14,262 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 11:26:14,296 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 11:26:14,296 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 11:26:14,789 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 11:26:14,791 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 11:26:14,813 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 11:26:15,278 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 11:26:15,284 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 11:26:15,285 - Starting service [Tomcat]
+[INFO]2024-06-07 11:26:15,285 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 11:26:15,383 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 11:26:15,383 - Root WebApplicationContext: initialization completed in 1086 ms
+[INFO]2024-06-07 11:26:16,099 - 自定义Redis配置--
+[WARN]2024-06-07 11:26:16,393 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 11:26:16,554 - LiveReload server is running on port 35729
+[INFO]2024-06-07 11:26:16,573 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 11:26:16,588 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 11:26:16,606 - Started SpringbootApplication in 2.699 seconds (JVM running for 3.623)
+[INFO]2024-06-07 11:26:36,347 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 11:26:36,347 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 11:26:36,348 - Completed initialization in 1 ms
+[INFO]2024-06-07 11:26:36,393 - HikariPool-1 - Starting...
+[INFO]2024-06-07 11:26:36,483 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 11:58:59,696 - Resolved [java.lang.NullPointerException]
+[INFO]2024-06-07 12:03:24,870 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 12:03:24,874 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 12:03:31,340 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 23772 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 12:03:31,341 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 12:03:31,376 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 12:03:31,376 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 12:03:31,875 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 12:03:31,877 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 12:03:31,901 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 12:03:32,374 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 12:03:32,380 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 12:03:32,381 - Starting service [Tomcat]
+[INFO]2024-06-07 12:03:32,381 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 12:03:32,459 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 12:03:32,459 - Root WebApplicationContext: initialization completed in 1082 ms
+[INFO]2024-06-07 12:03:33,058 - 自定义Redis配置--
+[WARN]2024-06-07 12:03:33,296 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 12:03:33,479 - LiveReload server is running on port 35729
+[INFO]2024-06-07 12:03:33,496 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 12:03:33,509 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 12:03:33,527 - Started SpringbootApplication in 2.541 seconds (JVM running for 3.515)
+[INFO]2024-06-07 12:03:38,673 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 12:03:38,673 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 12:03:38,674 - Completed initialization in 1 ms
+[INFO]2024-06-07 12:03:38,740 - HikariPool-1 - Starting...
+[INFO]2024-06-07 12:03:38,868 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 12:06:19,965 - Resolved [java.lang.NullPointerException]
+[INFO]2024-06-07 14:25:20,202 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 33728 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:25:20,203 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:25:20,240 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:25:20,240 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:25:21,048 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:25:21,050 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:25:21,087 - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:25:21,848 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:25:21,857 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:25:21,858 - Starting service [Tomcat]
+[INFO]2024-06-07 14:25:21,858 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:25:21,955 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:25:21,955 - Root WebApplicationContext: initialization completed in 1714 ms
+[INFO]2024-06-07 14:25:22,845 - 自定义Redis配置--
+[WARN]2024-06-07 14:25:23,200 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:25:23,433 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:25:23,460 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:25:23,478 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:25:23,502 - Started SpringbootApplication in 3.675 seconds (JVM running for 4.852)
+[INFO]2024-06-07 14:26:15,417 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:26:15,417 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:26:15,418 - Completed initialization in 1 ms
+[INFO]2024-06-07 14:26:15,465 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:26:15,583 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 14:32:54,381 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[WARN]2024-06-07 14:33:13,604 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[INFO]2024-06-07 14:36:19,137 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 14:36:19,145 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 14:36:25,104 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 81272 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:36:25,105 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:36:25,138 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:36:25,138 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:36:25,659 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:36:25,661 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:36:25,683 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:36:26,164 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:36:26,172 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:36:26,172 - Starting service [Tomcat]
+[INFO]2024-06-07 14:36:26,172 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:36:26,240 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:36:26,241 - Root WebApplicationContext: initialization completed in 1103 ms
+[INFO]2024-06-07 14:36:26,985 - 自定义Redis配置--
+[WARN]2024-06-07 14:36:27,349 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:36:27,562 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:36:27,588 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:36:27,617 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:36:27,642 - Started SpringbootApplication in 2.885 seconds (JVM running for 3.838)
+[INFO]2024-06-07 14:36:39,899 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:36:39,900 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:36:39,901 - Completed initialization in 1 ms
+[INFO]2024-06-07 14:36:39,975 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:36:40,070 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 14:36:40,129 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[WARN]2024-06-07 14:37:04,298 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[INFO]2024-06-07 14:37:32,192 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 14:37:32,200 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 14:37:38,227 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 77572 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:37:38,228 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:37:38,265 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:37:38,266 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:37:38,794 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:37:38,795 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:37:38,816 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:37:39,308 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:37:39,314 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:37:39,315 - Starting service [Tomcat]
+[INFO]2024-06-07 14:37:39,315 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:37:39,386 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:37:39,386 - Root WebApplicationContext: initialization completed in 1120 ms
+[INFO]2024-06-07 14:37:40,088 - 自定义Redis配置--
+[WARN]2024-06-07 14:37:40,431 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:37:40,629 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:37:40,645 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:37:40,658 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:37:40,680 - Started SpringbootApplication in 2.804 seconds (JVM running for 3.759)
+[INFO]2024-06-07 14:37:50,520 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:37:50,520 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:37:50,521 - Completed initialization in 1 ms
+[INFO]2024-06-07 14:37:50,595 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:37:50,680 - HikariPool-1 - Start completed.
+[INFO]2024-06-07 14:39:22,616 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-07 14:39:22,994 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:22,994 - Stopping service [Tomcat]
+[INFO]2024-06-07 14:39:22,995 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-07 14:39:22,998 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-07 14:39:22,998 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:23,000 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:23,030 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 14:39:23,038 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 14:39:23,153 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 77572 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:39:23,153 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:39:23,360 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:39:23,361 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:39:23,369 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:39:23,482 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:39:23,482 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:23,482 - Starting service [Tomcat]
+[INFO]2024-06-07 14:39:23,482 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:39:23,503 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:39:23,503 - Root WebApplicationContext: initialization completed in 348 ms
+[INFO]2024-06-07 14:39:23,676 - 自定义Redis配置--
+[WARN]2024-06-07 14:39:23,775 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:39:23,830 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:39:23,847 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:23,850 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:39:23,861 - Started SpringbootApplication in 0.731 seconds (JVM running for 106.94)
+[INFO]2024-06-07 14:39:23,863 - Condition evaluation unchanged
+[INFO]2024-06-07 14:39:26,304 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[INFO]2024-06-07 14:39:26,567 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:26,567 - Stopping service [Tomcat]
+[INFO]2024-06-07 14:39:26,570 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:26,572 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:26,709 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 77572 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:39:26,709 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:39:26,866 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:39:26,866 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:39:26,873 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:39:26,938 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:39:26,939 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:26,939 - Starting service [Tomcat]
+[INFO]2024-06-07 14:39:26,939 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:39:26,955 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:39:26,956 - Root WebApplicationContext: initialization completed in 246 ms
+[INFO]2024-06-07 14:39:27,080 - 自定义Redis配置--
+[WARN]2024-06-07 14:39:27,159 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:39:27,209 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:39:27,220 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:39:27,222 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:39:27,231 - Started SpringbootApplication in 0.545 seconds (JVM running for 110.31)
+[INFO]2024-06-07 14:39:27,232 - Condition evaluation unchanged
+[INFO]2024-06-07 14:40:46,066 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 82084 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:40:46,067 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:40:46,102 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:40:46,102 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:40:46,598 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:40:46,599 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:40:46,622 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:40:47,126 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:40:47,131 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:40:47,132 - Starting service [Tomcat]
+[INFO]2024-06-07 14:40:47,132 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:40:47,202 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:40:47,202 - Root WebApplicationContext: initialization completed in 1100 ms
+[INFO]2024-06-07 14:40:47,760 - 自定义Redis配置--
+[WARN]2024-06-07 14:40:48,004 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:40:48,147 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:40:48,166 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:40:48,180 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:40:48,197 - Started SpringbootApplication in 2.468 seconds (JVM running for 3.4)
+[INFO]2024-06-07 14:40:57,328 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:40:57,328 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:40:57,330 - Completed initialization in 2 ms
+[INFO]2024-06-07 14:40:57,380 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:40:57,485 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 14:41:15,794 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.test.springboot.utils.result.DataResult com.test.springboot.controller.CompanyResumePassController.add(com.test.springboot.vo.CompanyResumeVo)]
+[WARN]2024-06-07 14:42:17,254 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[INFO]2024-06-07 14:43:47,972 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[INFO]2024-06-07 14:43:48,379 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:43:48,379 - Stopping service [Tomcat]
+[INFO]2024-06-07 14:43:48,380 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[WARN]2024-06-07 14:43:48,382 - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[INFO]2024-06-07 14:43:48,382 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:43:48,383 - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:43:48,397 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 14:43:48,403 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 14:43:48,528 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 82084 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:43:48,528 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:43:48,718 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:43:48,718 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:43:48,725 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:43:48,855 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:43:48,856 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:43:48,856 - Starting service [Tomcat]
+[INFO]2024-06-07 14:43:48,856 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:43:48,877 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:43:48,877 - Root WebApplicationContext: initialization completed in 347 ms
+[INFO]2024-06-07 14:43:49,048 - 自定义Redis配置--
+[WARN]2024-06-07 14:43:49,138 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:43:49,191 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:43:49,199 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:43:49,201 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:43:49,208 - Started SpringbootApplication in 0.705 seconds (JVM running for 184.411)
+[INFO]2024-06-07 14:43:49,210 - Condition evaluation unchanged
+[INFO]2024-06-07 14:46:36,271 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 82028 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:46:36,272 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:46:36,308 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:46:36,308 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:46:36,797 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:46:36,798 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:46:36,820 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:46:37,293 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:46:37,300 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:46:37,300 - Starting service [Tomcat]
+[INFO]2024-06-07 14:46:37,300 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:46:37,371 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:46:37,371 - Root WebApplicationContext: initialization completed in 1062 ms
+[INFO]2024-06-07 14:46:37,950 - 自定义Redis配置--
+[WARN]2024-06-07 14:46:38,198 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:46:38,337 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:46:38,356 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:46:38,370 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:46:38,390 - Started SpringbootApplication in 2.476 seconds (JVM running for 3.463)
+[INFO]2024-06-07 14:46:44,405 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:46:44,405 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:46:44,407 - Completed initialization in 2 ms
+[INFO]2024-06-07 14:46:44,519 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:46:44,640 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 14:46:49,286 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[WARN]2024-06-07 14:47:04,046 - Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.test.springboot.dao.CompStaffDao.selectCompanyMaxIdByComId attempted to return null from a method with a primitive return type (int).]
+[INFO]2024-06-07 14:47:46,331 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 14:47:46,336 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 14:47:52,123 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 77796 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:47:52,123 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:47:52,160 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:47:52,160 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:47:52,699 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:47:52,700 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:47:52,722 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:47:53,205 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:47:53,212 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:47:53,212 - Starting service [Tomcat]
+[INFO]2024-06-07 14:47:53,212 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:47:53,280 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:47:53,280 - Root WebApplicationContext: initialization completed in 1120 ms
+[INFO]2024-06-07 14:47:53,854 - 自定义Redis配置--
+[WARN]2024-06-07 14:47:54,102 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:47:54,257 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:47:54,274 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:47:54,285 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:47:54,298 - Started SpringbootApplication in 2.515 seconds (JVM running for 3.476)
+[INFO]2024-06-07 14:48:00,232 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:48:00,232 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:48:00,233 - Completed initialization in 1 ms
+[INFO]2024-06-07 14:48:00,309 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:48:00,392 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 14:48:05,654 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.test.springboot.utils.result.DataResult com.test.springboot.controller.CompanyResumePassController.add(com.test.springboot.vo.CompanyResumeVo)]
+[INFO]2024-06-07 14:50:02,840 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-06-07 14:50:02,846 - HikariPool-1 - Shutdown completed.
+[INFO]2024-06-07 14:50:08,756 - Starting SpringbootApplication using Java 1.8.0_261 on luoxioasong-1017 with PID 2736 (D:\Java\xiaoqi3\target\classes started by luoshiwqng in D:\Java\xiaoqi3)
+[INFO]2024-06-07 14:50:08,757 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-06-07 14:50:08,794 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-06-07 14:50:08,794 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-06-07 14:50:09,301 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-06-07 14:50:09,302 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-06-07 14:50:09,323 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[INFO]2024-06-07 14:50:09,799 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-06-07 14:50:09,806 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:50:09,806 - Starting service [Tomcat]
+[INFO]2024-06-07 14:50:09,806 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO]2024-06-07 14:50:09,876 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-06-07 14:50:09,876 - Root WebApplicationContext: initialization completed in 1082 ms
+[INFO]2024-06-07 14:50:10,525 - 自定义Redis配置--
+[WARN]2024-06-07 14:50:10,806 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2024-06-07 14:50:10,989 - LiveReload server is running on port 35729
+[INFO]2024-06-07 14:50:11,007 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-06-07 14:50:11,021 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-06-07 14:50:11,039 - Started SpringbootApplication in 2.66 seconds (JVM running for 3.661)
+[INFO]2024-06-07 14:50:14,003 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-06-07 14:50:14,003 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-06-07 14:50:14,004 - Completed initialization in 1 ms
+[WARN]2024-06-07 14:50:14,068 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[INFO]2024-06-07 14:50:14,089 - HikariPool-1 - Starting...
+[INFO]2024-06-07 14:50:14,182 - HikariPool-1 - Start completed.
+[WARN]2024-06-07 15:17:24,735 - Resolved [java.lang.NullPointerException]
